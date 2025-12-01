@@ -1,3 +1,17 @@
+"""
+Core class for two–population ODE models with carrying capacities.
+
+`Combo_CC` encodes the general form
+
+    dX/dt = X * P_X(X, Y) * (1 - X/C_X) - X * R_X(X, Y)
+    dY/dt = Y * P_Y(X, Y) * (1 - Y/C_Y) - Y * R_Y(X, Y)
+
+where the production (`prod_*_terms`) and removal (`rem_*_terms`) polynomials are
+constructed from monomials of the form a_ij * X^i * Y^j with 0 <= i + j <= 2.
+This ensures (i) X = 0 and Y = 0 are absorbing states and (ii) trajectories are
+bounded by the carrying capacities C_X and C_Y, as described in the Methods.
+"""
+
 import numpy as np
 import sympy as sp
 import time

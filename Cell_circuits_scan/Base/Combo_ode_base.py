@@ -1,3 +1,15 @@
+"""
+Numerical integration utilities for `Combo` circuits (polynomial ODEs
+without explicit carrying capacities).
+
+`Combo_ODE` wraps a symbolic `Combo` object and:
+- builds a right‑hand side function suitable for `scipy.integrate.odeint`,
+- substitutes specific parameter values (dp0, dp1, …),
+- returns trajectories as a pandas DataFrame,
+- optionally extends the integration time until both X and Y have relaxed
+  back after an excitable pulse (via `continue_to_decay`).
+"""
+
 import numpy as np
 import sympy as sp
 from scipy.integrate import odeint

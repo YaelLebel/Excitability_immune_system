@@ -1,3 +1,20 @@
+"""
+Representation of generic polynomial interaction circuits without explicit
+carrying capacities.
+
+`Combo` takes a list of signed coefficients like '+a10', '-b02', etc.
+Each entry corresponds to a monomial of the form
+
+    a_ij * X^(i+1) * Y^j   (for X dynamics, 'a' coefficients)
+    b_ij * X^i   * Y^(j+1) (for Y dynamics, 'b' coefficients)
+
+with 0 <= i + j <= 2. This realizes the polynomial expansion
+P_X(X, Y) = sum a_ij X^i Y^j and P_Y(X, Y) = sum b_ij X^i Y^j
+used in the Methods, including constant, linear and quadratic self‑ and
+cross‑interactions. The `create_id` method encodes the full interaction
+topology (including signs) as a 12‑digit string.
+"""
+
 import numpy as np
 import sympy as sp
 from coeff_base import coeff

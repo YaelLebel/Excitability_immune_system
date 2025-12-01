@@ -1,3 +1,18 @@
+"""
+Utility functions for generating and filtering polynomial interaction
+combinations.
+
+- `create_combos(num_parameters)` enumerates all sign–labeled coefficient
+  combinations (e.g. '+a10', '-b02') of a given size without duplicates,
+  corresponding to selecting a subset of monomials a_ij X^i Y^j and
+  b_ij X^i Y^j up to total degree 2.
+- `create_combos_from_csv*` reconstruct `Combo` objects from tabulated
+  combinations and attach pre‑computed properties such as
+  connectivity, containment in the first quadrant, stability of the
+  origin and presence of feedback (these properties are produced in the
+  five‑interaction screening notebooks).
+"""
+
 import numpy as np
 import sympy as sp
 import re

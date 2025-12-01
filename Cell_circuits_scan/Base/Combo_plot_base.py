@@ -1,3 +1,17 @@
+"""
+Plotting helpers that wrap a `Combo` circuit in a `DynamicModel2D` object
+for phase‑portrait visualization.
+
+`Combo_plot`:
+- converts the symbolic polynomials P(X,Y), Q(X,Y) and their nullclines
+  into numerical functions of (x, y) and parameters,
+- delegates to `DynamicModel2D` to draw vector fields, trajectories and
+  nullclines in the (X, Y) plane.
+
+This is used in the five‑interaction notebooks to display the phase
+portraits of representative circuits from each excitable class.
+"""
+
 import numpy as np
 import sympy as sp
 from coeff_base import coeff
