@@ -1,0 +1,2486 @@
+,Source,Target,action,Mediators
+0,41BBL,BAFF,Positive,B
+1,41BBL,IL10,Positive,B
+2,41BBL,IL35,Positive,B
+3,41BBL,IL6,Positive,B
+4,41BBL,LTa,Positive,B
+5,41BBL,LTb,Positive,B
+6,APRIL,BAFF,Positive,B
+7,APRIL,IL10,Positive,B
+8,APRIL,IL35,Positive,B
+9,APRIL,IL6,Positive,B
+10,APRIL,LTa,Positive,B
+11,APRIL,LTb,Positive,B
+12,BAFF,BAFF,Positive,B
+13,BAFF,IL10,Positive,B
+14,BAFF,IL35,Positive,B
+15,BAFF,IL6,Positive,B
+16,BAFF,LTa,Positive,B
+17,BAFF,LTb,Positive,B
+18,CCL1,APRIL,Positive,Macrophage
+19,CCL1,BAFF,Positive,Macrophage
+20,CCL1,CCL11,Positive,Th2
+21,CCL1,CCL17,Positive,Th2
+22,CCL1,CCL2,Positive,"Macrophage, Monocyte"
+23,CCL1,CCL3,Positive,Monocyte
+24,CCL1,CCL4,Positive,"Macrophage, Monocyte, Neutrophil"
+25,CCL1,CX3CL1,Positive,Monocyte
+26,CCL1,CXCL1,Positive,Monocyte
+27,CCL1,CXCL2,Positive,Monocyte
+28,CCL1,CXCL3,Positive,Monocyte
+29,CCL1,CXCL8,Positive,"Macrophage, Monocyte"
+30,CCL1,GCSF,Positive,Monocyte
+31,CCL1,GMCSF,Positive,"Macrophage, Th2"
+32,CCL1,IFNg,Positive,Neutrophil
+33,CCL1,IL1,Positive,"Macrophage, Monocyte"
+34,CCL1,IL10,Positive,"Macrophage, Th2"
+35,CCL1,IL12,Positive,Macrophage
+36,CCL1,IL13,Positive,Th2
+37,CCL1,IL17A,Positive,"Macrophage, Neutrophil"
+38,CCL1,IL17F,Positive,Neutrophil
+39,CCL1,IL18,Positive,Macrophage
+40,CCL1,IL19,Positive,Monocyte
+41,CCL1,IL1RA,Positive,"Macrophage, Monocyte, Neutrophil"
+42,CCL1,IL1a,Positive,Macrophage
+43,CCL1,IL1b,Positive,Macrophage
+44,CCL1,IL20,Positive,Monocyte
+45,CCL1,IL21,Positive,Th2
+46,CCL1,IL22,Positive,Neutrophil
+47,CCL1,IL23,Positive,Macrophage
+48,CCL1,IL24,Positive,Monocyte
+49,CCL1,IL25,Positive,Th2
+50,CCL1,IL27,Positive,"Macrophage, Monocyte"
+51,CCL1,IL3,Positive,Th2
+52,CCL1,IL31,Positive,Th2
+53,CCL1,IL32,Positive,Monocyte
+54,CCL1,IL35,Positive,Monocyte
+55,CCL1,IL37,Positive,Monocyte
+56,CCL1,IL4,Positive,Th2
+57,CCL1,IL5,Positive,Th2
+58,CCL1,IL6,Positive,"Macrophage, Monocyte"
+59,CCL1,IL9,Positive,Th2
+60,CCL1,OSM,Positive,Macrophage
+61,CCL1,TGFb,Positive,"Monocyte, Th2"
+62,CCL1,TNFa,Positive,"Macrophage, Monocyte, Th2"
+63,CCL1,TWEAK,Positive,Macrophage
+64,CCL1,Trail,Positive,Monocyte
+65,CCL11,APRIL,Positive,"Eosinophil, Macrophage"
+66,CCL11,BAFF,Positive,Macrophage
+67,CCL11,CCL11,Positive,Th2
+68,CCL11,CCL17,Positive,Th2
+69,CCL11,CCL2,Positive,Macrophage
+70,CCL11,CCL3,Positive,Mast
+71,CCL11,CCL4,Positive,Macrophage
+72,CCL11,CD40L,Positive,Mast
+73,CCL11,CXCL8,Positive,"Eosinophil, Macrophage"
+74,CCL11,GMCSF,Positive,"Eosinophil, Macrophage, Mast, Th2"
+75,CCL11,IL1,Positive,Macrophage
+76,CCL11,IL10,Positive,"Macrophage, Mast, Th2"
+77,CCL11,IL12,Positive,Macrophage
+78,CCL11,IL13,Positive,"Basophil, Mast, Th2"
+79,CCL11,IL16,Positive,"Eosinophil, Mast"
+80,CCL11,IL17A,Positive,Macrophage
+81,CCL11,IL18,Positive,Macrophage
+82,CCL11,IL1RA,Positive,Macrophage
+83,CCL11,IL1a,Positive,Macrophage
+84,CCL11,IL1b,Positive,Macrophage
+85,CCL11,IL21,Positive,Th2
+86,CCL11,IL23,Positive,Macrophage
+87,CCL11,IL25,Positive,"Mast, Th2"
+88,CCL11,IL27,Positive,Macrophage
+89,CCL11,IL3,Positive,"Eosinophil, Mast, Th2"
+90,CCL11,IL31,Positive,Th2
+91,CCL11,IL33,Positive,Mast
+92,CCL11,IL4,Positive,"Basophil, Eosinophil, Mast, Th2"
+93,CCL11,IL5,Positive,"Eosinophil, Mast, Th2"
+94,CCL11,IL6,Positive,"Eosinophil, Macrophage"
+95,CCL11,IL9,Positive,Th2
+96,CCL11,OSM,Positive,Macrophage
+97,CCL11,TGFa,Positive,Eosinophil
+98,CCL11,TGFb,Positive,"Eosinophil, Th2"
+99,CCL11,TNFa,Positive,"Macrophage, Mast, Th2"
+100,CCL11,TWEAK,Positive,Macrophage
+101,CCL11,VEGF,Positive,Mast
+102,CCL12,APRIL,Positive,Eosinophil
+103,CCL12,BAFF,Positive,B
+104,CCL12,CCL2,Positive,Monocyte
+105,CCL12,CCL3,Positive,Monocyte
+106,CCL12,CCL4,Positive,Monocyte
+107,CCL12,CX3CL1,Positive,Monocyte
+108,CCL12,CXCL1,Positive,Monocyte
+109,CCL12,CXCL2,Positive,Monocyte
+110,CCL12,CXCL3,Positive,Monocyte
+111,CCL12,CXCL8,Positive,"Eosinophil, Monocyte"
+112,CCL12,GCSF,Positive,Monocyte
+113,CCL12,GMCSF,Positive,Eosinophil
+114,CCL12,IL1,Positive,Monocyte
+115,CCL12,IL10,Positive,B
+116,CCL12,IL16,Positive,Eosinophil
+117,CCL12,IL19,Positive,Monocyte
+118,CCL12,IL1RA,Positive,Monocyte
+119,CCL12,IL20,Positive,Monocyte
+120,CCL12,IL24,Positive,Monocyte
+121,CCL12,IL27,Positive,Monocyte
+122,CCL12,IL3,Positive,Eosinophil
+123,CCL12,IL32,Positive,Monocyte
+124,CCL12,IL35,Positive,"B, Monocyte"
+125,CCL12,IL37,Positive,Monocyte
+126,CCL12,IL4,Positive,Eosinophil
+127,CCL12,IL5,Positive,Eosinophil
+128,CCL12,IL6,Positive,"B, Eosinophil, Monocyte"
+129,CCL12,LTa,Positive,B
+130,CCL12,LTb,Positive,B
+131,CCL12,TGFa,Positive,Eosinophil
+132,CCL12,TGFb,Positive,"Eosinophil, Monocyte"
+133,CCL12,TNFa,Positive,Monocyte
+134,CCL12,Trail,Positive,Monocyte
+135,CCL13,APRIL,Positive,"DC, Eosinophil"
+136,CCL13,BAFF,Positive,DC
+137,CCL13,CCL11,Positive,Th2
+138,CCL13,CCL17,Positive,Th2
+139,CCL13,CCL18,Positive,DC
+140,CCL13,CCL19,Positive,DC
+141,CCL13,CCL2,Positive,Monocyte
+142,CCL13,CCL21,Positive,DC
+143,CCL13,CCL3,Positive,Monocyte
+144,CCL13,CCL4,Positive,Monocyte
+145,CCL13,CX3CL1,Positive,Monocyte
+146,CCL13,CXCL1,Positive,Monocyte
+147,CCL13,CXCL13,Positive,DC
+148,CCL13,CXCL2,Positive,Monocyte
+149,CCL13,CXCL3,Positive,Monocyte
+150,CCL13,CXCL8,Positive,"DC, Eosinophil, Monocyte"
+151,CCL13,GCSF,Positive,Monocyte
+152,CCL13,GMCSF,Positive,"Eosinophil, Th2"
+153,CCL13,IFNa,Positive,DC
+154,CCL13,IL1,Positive,"DC, Monocyte"
+155,CCL13,IL10,Positive,"DC, Th2"
+156,CCL13,IL12,Positive,DC
+157,CCL13,IL13,Positive,"Basophil, Th2"
+158,CCL13,IL16,Positive,Eosinophil
+159,CCL13,IL18,Positive,DC
+160,CCL13,IL19,Positive,Monocyte
+161,CCL13,IL1RA,Positive,Monocyte
+162,CCL13,IL1b,Positive,DC
+163,CCL13,IL20,Positive,Monocyte
+164,CCL13,IL21,Positive,Th2
+165,CCL13,IL23,Positive,DC
+166,CCL13,IL24,Positive,Monocyte
+167,CCL13,IL25,Positive,Th2
+168,CCL13,IL27,Positive,"DC, Monocyte"
+169,CCL13,IL28,Positive,DC
+170,CCL13,IL29,Positive,DC
+171,CCL13,IL3,Positive,"Eosinophil, Th2"
+172,CCL13,IL31,Positive,Th2
+173,CCL13,IL32,Positive,Monocyte
+174,CCL13,IL35,Positive,Monocyte
+175,CCL13,IL37,Positive,"DC, Monocyte"
+176,CCL13,IL4,Positive,"Basophil, DC, Eosinophil, Th2"
+177,CCL13,IL5,Positive,"Eosinophil, Th2"
+178,CCL13,IL6,Positive,"DC, Eosinophil, Monocyte"
+179,CCL13,IL9,Positive,Th2
+180,CCL13,TGFa,Positive,Eosinophil
+181,CCL13,TGFb,Positive,"DC, Eosinophil, Monocyte, Th2"
+182,CCL13,TNFa,Positive,"DC, Monocyte, Th2"
+183,CCL13,Trail,Positive,Monocyte
+184,CCL14,CCL2,Positive,Monocyte
+185,CCL14,CCL3,Positive,Monocyte
+186,CCL14,CCL4,Positive,Monocyte
+187,CCL14,CX3CL1,Positive,Monocyte
+188,CCL14,CXCL1,Positive,Monocyte
+189,CCL14,CXCL2,Positive,Monocyte
+190,CCL14,CXCL3,Positive,Monocyte
+191,CCL14,CXCL8,Positive,Monocyte
+192,CCL14,GCSF,Positive,Monocyte
+193,CCL14,IL1,Positive,Monocyte
+194,CCL14,IL19,Positive,Monocyte
+195,CCL14,IL1RA,Positive,Monocyte
+196,CCL14,IL20,Positive,Monocyte
+197,CCL14,IL24,Positive,Monocyte
+198,CCL14,IL27,Positive,Monocyte
+199,CCL14,IL32,Positive,Monocyte
+200,CCL14,IL35,Positive,Monocyte
+201,CCL14,IL37,Positive,Monocyte
+202,CCL14,IL6,Positive,Monocyte
+203,CCL14,TGFb,Positive,Monocyte
+204,CCL14,TNFa,Positive,Monocyte
+205,CCL14,Trail,Positive,Monocyte
+206,CCL15,APRIL,Positive,"DC, Eosinophil"
+207,CCL15,BAFF,Positive,DC
+208,CCL15,CCL18,Positive,DC
+209,CCL15,CCL19,Positive,DC
+210,CCL15,CCL2,Positive,Monocyte
+211,CCL15,CCL21,Positive,DC
+212,CCL15,CCL3,Positive,Monocyte
+213,CCL15,CCL4,Positive,Monocyte
+214,CCL15,CX3CL1,Positive,Monocyte
+215,CCL15,CXCL1,Positive,Monocyte
+216,CCL15,CXCL13,Positive,DC
+217,CCL15,CXCL2,Positive,Monocyte
+218,CCL15,CXCL3,Positive,Monocyte
+219,CCL15,CXCL8,Positive,"DC, Eosinophil, Monocyte"
+220,CCL15,GCSF,Positive,Monocyte
+221,CCL15,GMCSF,Positive,Eosinophil
+222,CCL15,IFNa,Positive,DC
+223,CCL15,IL1,Positive,"DC, Monocyte"
+224,CCL15,IL10,Positive,DC
+225,CCL15,IL12,Positive,DC
+226,CCL15,IL16,Positive,Eosinophil
+227,CCL15,IL18,Positive,DC
+228,CCL15,IL19,Positive,Monocyte
+229,CCL15,IL1RA,Positive,Monocyte
+230,CCL15,IL1b,Positive,DC
+231,CCL15,IL20,Positive,Monocyte
+232,CCL15,IL23,Positive,DC
+233,CCL15,IL24,Positive,Monocyte
+234,CCL15,IL27,Positive,"DC, Monocyte"
+235,CCL15,IL28,Positive,DC
+236,CCL15,IL29,Positive,DC
+237,CCL15,IL3,Positive,Eosinophil
+238,CCL15,IL32,Positive,Monocyte
+239,CCL15,IL35,Positive,Monocyte
+240,CCL15,IL37,Positive,"DC, Monocyte"
+241,CCL15,IL4,Positive,"DC, Eosinophil"
+242,CCL15,IL5,Positive,Eosinophil
+243,CCL15,IL6,Positive,"DC, Eosinophil, Monocyte"
+244,CCL15,TGFa,Positive,Eosinophil
+245,CCL15,TGFb,Positive,"DC, Eosinophil, Monocyte"
+246,CCL15,TNFa,Positive,"DC, Monocyte"
+247,CCL15,Trail,Positive,Monocyte
+248,CCL16,APRIL,Positive,DC
+249,CCL16,BAFF,Positive,DC
+250,CCL16,CCL18,Positive,DC
+251,CCL16,CCL19,Positive,DC
+252,CCL16,CCL2,Positive,Monocyte
+253,CCL16,CCL21,Positive,DC
+254,CCL16,CCL3,Positive,"Monocyte, NK"
+255,CCL16,CCL4,Positive,"Monocyte, NK"
+256,CCL16,CCL5,Positive,NK
+257,CCL16,CX3CL1,Positive,Monocyte
+258,CCL16,CXCL1,Positive,Monocyte
+259,CCL16,CXCL13,Positive,DC
+260,CCL16,CXCL2,Positive,Monocyte
+261,CCL16,CXCL3,Positive,Monocyte
+262,CCL16,CXCL8,Positive,"DC, Monocyte"
+263,CCL16,GCSF,Positive,Monocyte
+264,CCL16,GMCSF,Positive,NK
+265,CCL16,IFNa,Positive,DC
+266,CCL16,IFNg,Positive,NK
+267,CCL16,IL1,Positive,"DC, Monocyte"
+268,CCL16,IL10,Positive,DC
+269,CCL16,IL12,Positive,DC
+270,CCL16,IL17A,Positive,NK
+271,CCL16,IL17F,Positive,NK
+272,CCL16,IL18,Positive,DC
+273,CCL16,IL19,Positive,Monocyte
+274,CCL16,IL1RA,Positive,Monocyte
+275,CCL16,IL1b,Positive,DC
+276,CCL16,IL20,Positive,Monocyte
+277,CCL16,IL22,Positive,NK
+278,CCL16,IL23,Positive,DC
+279,CCL16,IL24,Positive,Monocyte
+280,CCL16,IL26,Positive,NK
+281,CCL16,IL27,Positive,"DC, Monocyte"
+282,CCL16,IL28,Positive,DC
+283,CCL16,IL29,Positive,DC
+284,CCL16,IL32,Positive,"Monocyte, NK"
+285,CCL16,IL35,Positive,Monocyte
+286,CCL16,IL37,Positive,"DC, Monocyte"
+287,CCL16,IL4,Positive,DC
+288,CCL16,IL6,Positive,"DC, Monocyte"
+289,CCL16,TGFb,Positive,"DC, Monocyte"
+290,CCL16,TNFa,Positive,"DC, Monocyte, NK"
+291,CCL16,Trail,Positive,Monocyte
+292,CCL17,APRIL,Positive,DC
+293,CCL17,BAFF,Positive,DC
+294,CCL17,CCL11,Positive,Th2
+295,CCL17,CCL17,Positive,Th2
+296,CCL17,CCL18,Positive,DC
+297,CCL17,CCL19,Positive,DC
+298,CCL17,CCL21,Positive,DC
+299,CCL17,CXCL13,Positive,DC
+300,CCL17,CXCL8,Positive,DC
+301,CCL17,GMCSF,Positive,Th2
+302,CCL17,IFNa,Positive,DC
+303,CCL17,IL1,Positive,DC
+304,CCL17,IL10,Positive,"DC, T_reg, Th2"
+305,CCL17,IL12,Positive,DC
+306,CCL17,IL13,Positive,Th2
+307,CCL17,IL18,Positive,DC
+308,CCL17,IL1b,Positive,DC
+309,CCL17,IL21,Positive,Th2
+310,CCL17,IL23,Positive,DC
+311,CCL17,IL25,Positive,Th2
+312,CCL17,IL27,Positive,DC
+313,CCL17,IL28,Positive,DC
+314,CCL17,IL29,Positive,DC
+315,CCL17,IL3,Positive,Th2
+316,CCL17,IL31,Positive,Th2
+317,CCL17,IL35,Positive,T_reg
+318,CCL17,IL37,Positive,DC
+319,CCL17,IL4,Positive,"DC, Th2"
+320,CCL17,IL5,Positive,Th2
+321,CCL17,IL6,Positive,DC
+322,CCL17,IL9,Positive,Th2
+323,CCL17,TGFb,Positive,"DC, T_reg, Th2"
+324,CCL17,TNFa,Positive,"DC, Th2"
+325,CCL18,APRIL,Positive,DC
+326,CCL18,BAFF,Positive,"B, DC"
+327,CCL18,CCL18,Positive,DC
+328,CCL18,CCL19,Positive,DC
+329,CCL18,CCL21,Positive,DC
+330,CCL18,CXCL13,Positive,DC
+331,CCL18,CXCL8,Positive,DC
+332,CCL18,IFNa,Positive,DC
+333,CCL18,IL1,Positive,DC
+334,CCL18,IL10,Positive,"B, DC"
+335,CCL18,IL12,Positive,DC
+336,CCL18,IL18,Positive,DC
+337,CCL18,IL1b,Positive,DC
+338,CCL18,IL23,Positive,DC
+339,CCL18,IL27,Positive,DC
+340,CCL18,IL28,Positive,DC
+341,CCL18,IL29,Positive,DC
+342,CCL18,IL35,Positive,B
+343,CCL18,IL37,Positive,DC
+344,CCL18,IL4,Positive,DC
+345,CCL18,IL6,Positive,"B, DC"
+346,CCL18,LTa,Positive,B
+347,CCL18,LTb,Positive,B
+348,CCL18,TGFb,Positive,DC
+349,CCL18,TNFa,Positive,DC
+350,CCL19,APRIL,Positive,DC
+351,CCL19,BAFF,Positive,"B, DC"
+352,CCL19,CCL18,Positive,DC
+353,CCL19,CCL19,Positive,DC
+354,CCL19,CCL21,Positive,DC
+355,CCL19,CXCL13,Positive,DC
+356,CCL19,CXCL8,Positive,DC
+357,CCL19,IFNa,Positive,DC
+358,CCL19,IFNg,Positive,T_CD8
+359,CCL19,IL1,Positive,DC
+360,CCL19,IL10,Positive,"B, DC"
+361,CCL19,IL12,Positive,DC
+362,CCL19,IL18,Positive,DC
+363,CCL19,IL1b,Positive,DC
+364,CCL19,IL2,Positive,"T_CD4, T_CD8"
+365,CCL19,IL23,Positive,DC
+366,CCL19,IL27,Positive,DC
+367,CCL19,IL28,Positive,DC
+368,CCL19,IL29,Positive,DC
+369,CCL19,IL35,Positive,B
+370,CCL19,IL37,Positive,DC
+371,CCL19,IL4,Positive,DC
+372,CCL19,IL6,Positive,"B, DC"
+373,CCL19,LTa,Positive,B
+374,CCL19,LTb,Positive,B
+375,CCL19,TGFb,Positive,DC
+376,CCL19,TNFa,Positive,DC
+377,CCL2,APRIL,Positive,"DC, Eosinophil, Macrophage"
+378,CCL2,BAFF,Positive,"DC, Macrophage"
+379,CCL2,CCL11,Positive,Th2
+380,CCL2,CCL17,Positive,Th2
+381,CCL2,CCL18,Positive,DC
+382,CCL2,CCL19,Positive,DC
+383,CCL2,CCL2,Positive,"Macrophage, Monocyte"
+384,CCL2,CCL21,Positive,DC
+385,CCL2,CCL3,Positive,"Monocyte, NK"
+386,CCL2,CCL4,Positive,"Macrophage, Monocyte, NK, Neutrophil"
+387,CCL2,CCL5,Positive,NK
+388,CCL2,CX3CL1,Positive,Monocyte
+389,CCL2,CXCL1,Positive,Monocyte
+390,CCL2,CXCL13,Positive,DC
+391,CCL2,CXCL2,Positive,Monocyte
+392,CCL2,CXCL3,Positive,Monocyte
+393,CCL2,CXCL8,Positive,"DC, Eosinophil, Macrophage, Monocyte"
+394,CCL2,GCSF,Positive,Monocyte
+395,CCL2,GMCSF,Positive,"Eosinophil, Macrophage, NK, Th2"
+396,CCL2,IFNa,Positive,DC
+397,CCL2,IFNg,Positive,"NK, Neutrophil"
+398,CCL2,IL1,Positive,"DC, Macrophage, Monocyte"
+399,CCL2,IL10,Positive,"DC, Macrophage, Th2"
+400,CCL2,IL12,Positive,"DC, Macrophage"
+401,CCL2,IL13,Positive,"Basophil, Th2"
+402,CCL2,IL16,Positive,Eosinophil
+403,CCL2,IL17A,Positive,"Macrophage, NK, Neutrophil"
+404,CCL2,IL17F,Positive,"NK, Neutrophil"
+405,CCL2,IL18,Positive,"DC, Macrophage"
+406,CCL2,IL19,Positive,Monocyte
+407,CCL2,IL1RA,Positive,"Macrophage, Monocyte, Neutrophil"
+408,CCL2,IL1a,Positive,Macrophage
+409,CCL2,IL1b,Positive,"DC, Macrophage"
+410,CCL2,IL20,Positive,Monocyte
+411,CCL2,IL21,Positive,Th2
+412,CCL2,IL22,Positive,"NK, Neutrophil"
+413,CCL2,IL23,Positive,"DC, Macrophage"
+414,CCL2,IL24,Positive,Monocyte
+415,CCL2,IL25,Positive,Th2
+416,CCL2,IL26,Positive,NK
+417,CCL2,IL27,Positive,"DC, Macrophage, Monocyte"
+418,CCL2,IL28,Positive,DC
+419,CCL2,IL29,Positive,DC
+420,CCL2,IL3,Positive,"Eosinophil, Th2"
+421,CCL2,IL31,Positive,Th2
+422,CCL2,IL32,Positive,"Monocyte, NK"
+423,CCL2,IL35,Positive,Monocyte
+424,CCL2,IL37,Positive,"DC, Monocyte"
+425,CCL2,IL4,Positive,"Basophil, DC, Eosinophil, Th2"
+426,CCL2,IL5,Positive,"Eosinophil, Th2"
+427,CCL2,IL6,Positive,"DC, Eosinophil, Macrophage, Monocyte"
+428,CCL2,IL9,Positive,Th2
+429,CCL2,OSM,Positive,Macrophage
+430,CCL2,TGFa,Positive,Eosinophil
+431,CCL2,TGFb,Positive,"DC, Eosinophil, Monocyte, Th2"
+432,CCL2,TNFa,Positive,"DC, Macrophage, Monocyte, NK, Th2"
+433,CCL2,TWEAK,Positive,Macrophage
+434,CCL2,Trail,Positive,Monocyte
+435,CCL20,APRIL,Positive,"DC, Macrophage"
+436,CCL20,BAFF,Positive,"B, DC, Macrophage"
+437,CCL20,CCL18,Positive,DC
+438,CCL20,CCL19,Positive,DC
+439,CCL20,CCL2,Positive,"Macrophage, Monocyte"
+440,CCL20,CCL20,Positive,Th17
+441,CCL20,CCL21,Positive,DC
+442,CCL20,CCL3,Positive,Monocyte
+443,CCL20,CCL4,Positive,"Macrophage, Monocyte"
+444,CCL20,CX3CL1,Positive,Monocyte
+445,CCL20,CXCL1,Positive,Monocyte
+446,CCL20,CXCL13,Positive,DC
+447,CCL20,CXCL2,Positive,Monocyte
+448,CCL20,CXCL3,Positive,Monocyte
+449,CCL20,CXCL8,Positive,"DC, Macrophage, Monocyte"
+450,CCL20,GCSF,Positive,Monocyte
+451,CCL20,GMCSF,Positive,"Macrophage, Th17"
+452,CCL20,IFNa,Positive,DC
+453,CCL20,IFNg,Positive,Th17
+454,CCL20,IL1,Positive,"DC, Macrophage, Monocyte"
+455,CCL20,IL10,Positive,"B, DC, Macrophage, Th17"
+456,CCL20,IL12,Positive,"DC, Macrophage"
+457,CCL20,IL17A,Positive,"Macrophage, Th17"
+458,CCL20,IL17F,Positive,Th17
+459,CCL20,IL18,Positive,"DC, Macrophage"
+460,CCL20,IL19,Positive,Monocyte
+461,CCL20,IL1RA,Positive,"Macrophage, Monocyte"
+462,CCL20,IL1a,Positive,Macrophage
+463,CCL20,IL1b,Positive,"DC, Macrophage"
+464,CCL20,IL20,Positive,Monocyte
+465,CCL20,IL21,Positive,Th17
+466,CCL20,IL22,Positive,Th17
+467,CCL20,IL23,Positive,"DC, Macrophage"
+468,CCL20,IL24,Positive,Monocyte
+469,CCL20,IL26,Positive,Th17
+470,CCL20,IL27,Positive,"DC, Macrophage, Monocyte"
+471,CCL20,IL28,Positive,DC
+472,CCL20,IL29,Positive,DC
+473,CCL20,IL3,Positive,Th17
+474,CCL20,IL32,Positive,Monocyte
+475,CCL20,IL35,Positive,"B, Monocyte"
+476,CCL20,IL37,Positive,"DC, Monocyte"
+477,CCL20,IL4,Positive,DC
+478,CCL20,IL6,Positive,"B, DC, Macrophage, Monocyte"
+479,CCL20,LTa,Positive,B
+480,CCL20,LTb,Positive,B
+481,CCL20,OSM,Positive,Macrophage
+482,CCL20,TGFb,Positive,"DC, Monocyte"
+483,CCL20,TNFa,Positive,"DC, Macrophage, Monocyte, Th17"
+484,CCL20,TWEAK,Positive,Macrophage
+485,CCL20,Trail,Positive,Monocyte
+486,CCL21,APRIL,Positive,DC
+487,CCL21,BAFF,Positive,"B, DC"
+488,CCL21,CCL18,Positive,DC
+489,CCL21,CCL19,Positive,DC
+490,CCL21,CCL21,Positive,DC
+491,CCL21,CCL3,Positive,NK
+492,CCL21,CCL4,Positive,NK
+493,CCL21,CCL5,Positive,NK
+494,CCL21,CXCL13,Positive,DC
+495,CCL21,CXCL8,Positive,DC
+496,CCL21,GMCSF,Positive,NK
+497,CCL21,IFNa,Positive,DC
+498,CCL21,IFNg,Positive,"NK, T_CD8"
+499,CCL21,IL1,Positive,DC
+500,CCL21,IL10,Positive,"B, DC"
+501,CCL21,IL12,Positive,DC
+502,CCL21,IL17A,Positive,NK
+503,CCL21,IL17F,Positive,NK
+504,CCL21,IL18,Positive,DC
+505,CCL21,IL1b,Positive,DC
+506,CCL21,IL2,Positive,"T_CD4, T_CD8"
+507,CCL21,IL22,Positive,NK
+508,CCL21,IL23,Positive,DC
+509,CCL21,IL26,Positive,NK
+510,CCL21,IL27,Positive,DC
+511,CCL21,IL28,Positive,DC
+512,CCL21,IL29,Positive,DC
+513,CCL21,IL32,Positive,NK
+514,CCL21,IL35,Positive,B
+515,CCL21,IL37,Positive,DC
+516,CCL21,IL4,Positive,DC
+517,CCL21,IL6,Positive,"B, DC"
+518,CCL21,LTa,Positive,B
+519,CCL21,LTb,Positive,B
+520,CCL21,TGFb,Positive,DC
+521,CCL21,TNFa,Positive,"DC, NK"
+522,CCL22,APRIL,Positive,DC
+523,CCL22,BAFF,Positive,DC
+524,CCL22,CCL11,Positive,Th2
+525,CCL22,CCL17,Positive,Th2
+526,CCL22,CCL18,Positive,DC
+527,CCL22,CCL19,Positive,DC
+528,CCL22,CCL2,Positive,Monocyte
+529,CCL22,CCL21,Positive,DC
+530,CCL22,CCL3,Positive,"Monocyte, NK"
+531,CCL22,CCL4,Positive,"Monocyte, NK"
+532,CCL22,CCL5,Positive,NK
+533,CCL22,CX3CL1,Positive,Monocyte
+534,CCL22,CXCL1,Positive,Monocyte
+535,CCL22,CXCL13,Positive,DC
+536,CCL22,CXCL2,Positive,Monocyte
+537,CCL22,CXCL3,Positive,Monocyte
+538,CCL22,CXCL8,Positive,"DC, Monocyte"
+539,CCL22,GCSF,Positive,Monocyte
+540,CCL22,GMCSF,Positive,"NK, Th2"
+541,CCL22,IFNa,Positive,DC
+542,CCL22,IFNg,Positive,NK
+543,CCL22,IL1,Positive,"DC, Monocyte"
+544,CCL22,IL10,Positive,"DC, T_reg, Th2"
+545,CCL22,IL12,Positive,DC
+546,CCL22,IL13,Positive,Th2
+547,CCL22,IL17A,Positive,NK
+548,CCL22,IL17F,Positive,NK
+549,CCL22,IL18,Positive,DC
+550,CCL22,IL19,Positive,Monocyte
+551,CCL22,IL1RA,Positive,Monocyte
+552,CCL22,IL1b,Positive,DC
+553,CCL22,IL20,Positive,Monocyte
+554,CCL22,IL21,Positive,Th2
+555,CCL22,IL22,Positive,NK
+556,CCL22,IL23,Positive,DC
+557,CCL22,IL24,Positive,Monocyte
+558,CCL22,IL25,Positive,Th2
+559,CCL22,IL26,Positive,NK
+560,CCL22,IL27,Positive,"DC, Monocyte"
+561,CCL22,IL28,Positive,DC
+562,CCL22,IL29,Positive,DC
+563,CCL22,IL3,Positive,Th2
+564,CCL22,IL31,Positive,Th2
+565,CCL22,IL32,Positive,"Monocyte, NK"
+566,CCL22,IL35,Positive,"Monocyte, T_reg"
+567,CCL22,IL37,Positive,"DC, Monocyte"
+568,CCL22,IL4,Positive,"DC, Th2"
+569,CCL22,IL5,Positive,Th2
+570,CCL22,IL6,Positive,"DC, Monocyte"
+571,CCL22,IL9,Positive,Th2
+572,CCL22,TGFb,Positive,"DC, Monocyte, T_reg, Th2"
+573,CCL22,TNFa,Positive,"DC, Monocyte, NK, Th2"
+574,CCL22,Trail,Positive,Monocyte
+575,CCL23,CCL2,Positive,Monocyte
+576,CCL23,CCL3,Positive,Monocyte
+577,CCL23,CCL4,Positive,"Monocyte, Neutrophil"
+578,CCL23,CX3CL1,Positive,Monocyte
+579,CCL23,CXCL1,Positive,Monocyte
+580,CCL23,CXCL2,Positive,Monocyte
+581,CCL23,CXCL3,Positive,Monocyte
+582,CCL23,CXCL8,Positive,Monocyte
+583,CCL23,GCSF,Positive,Monocyte
+584,CCL23,IFNg,Positive,Neutrophil
+585,CCL23,IL1,Positive,Monocyte
+586,CCL23,IL17A,Positive,Neutrophil
+587,CCL23,IL17F,Positive,Neutrophil
+588,CCL23,IL19,Positive,Monocyte
+589,CCL23,IL1RA,Positive,"Monocyte, Neutrophil"
+590,CCL23,IL20,Positive,Monocyte
+591,CCL23,IL22,Positive,Neutrophil
+592,CCL23,IL24,Positive,Monocyte
+593,CCL23,IL27,Positive,Monocyte
+594,CCL23,IL32,Positive,Monocyte
+595,CCL23,IL35,Positive,Monocyte
+596,CCL23,IL37,Positive,Monocyte
+597,CCL23,IL6,Positive,Monocyte
+598,CCL23,TGFb,Positive,Monocyte
+599,CCL23,TNFa,Positive,Monocyte
+600,CCL23,Trail,Positive,Monocyte
+601,CCL24,APRIL,Positive,Eosinophil
+602,CCL24,CCL11,Positive,Th2
+603,CCL24,CCL17,Positive,Th2
+604,CCL24,CXCL8,Positive,Eosinophil
+605,CCL24,GMCSF,Positive,"Eosinophil, Th2"
+606,CCL24,IL10,Positive,Th2
+607,CCL24,IL13,Positive,"Basophil, Th2"
+608,CCL24,IL16,Positive,Eosinophil
+609,CCL24,IL21,Positive,Th2
+610,CCL24,IL25,Positive,Th2
+611,CCL24,IL3,Positive,"Eosinophil, Th2"
+612,CCL24,IL31,Positive,Th2
+613,CCL24,IL4,Positive,"Basophil, Eosinophil, Th2"
+614,CCL24,IL5,Positive,"Eosinophil, Th2"
+615,CCL24,IL6,Positive,Eosinophil
+616,CCL24,IL9,Positive,Th2
+617,CCL24,TGFa,Positive,Eosinophil
+618,CCL24,TGFb,Positive,"Eosinophil, Th2"
+619,CCL24,TNFa,Positive,Th2
+620,CCL25,APRIL,Positive,"DC, Macrophage"
+621,CCL25,BAFF,Positive,"B, DC, Macrophage"
+622,CCL25,CCL18,Positive,DC
+623,CCL25,CCL19,Positive,DC
+624,CCL25,CCL2,Positive,Macrophage
+625,CCL25,CCL21,Positive,DC
+626,CCL25,CCL4,Positive,Macrophage
+627,CCL25,CXCL13,Positive,DC
+628,CCL25,CXCL8,Positive,"DC, Macrophage"
+629,CCL25,GMCSF,Positive,Macrophage
+630,CCL25,IFNa,Positive,DC
+631,CCL25,IFNg,Positive,IEL
+632,CCL25,IL1,Positive,"DC, Macrophage"
+633,CCL25,IL10,Positive,"B, DC, Macrophage"
+634,CCL25,IL12,Positive,"DC, Macrophage"
+635,CCL25,IL17A,Positive,Macrophage
+636,CCL25,IL18,Positive,"DC, Macrophage"
+637,CCL25,IL1RA,Positive,Macrophage
+638,CCL25,IL1a,Positive,Macrophage
+639,CCL25,IL1b,Positive,"DC, Macrophage"
+640,CCL25,IL23,Positive,"DC, Macrophage"
+641,CCL25,IL27,Positive,"DC, Macrophage"
+642,CCL25,IL28,Positive,DC
+643,CCL25,IL29,Positive,DC
+644,CCL25,IL35,Positive,B
+645,CCL25,IL37,Positive,DC
+646,CCL25,IL4,Positive,DC
+647,CCL25,IL6,Positive,"B, DC, Macrophage"
+648,CCL25,Keratinocyte growth factor,Positive,IEL
+649,CCL25,LTa,Positive,B
+650,CCL25,LTb,Positive,B
+651,CCL25,OSM,Positive,Macrophage
+652,CCL25,TGFb,Positive,"DC, IEL"
+653,CCL25,TNFa,Positive,"DC, Macrophage"
+654,CCL25,TWEAK,Positive,Macrophage
+655,CCL26,APRIL,Positive,Eosinophil
+656,CCL26,CCL11,Positive,Th2
+657,CCL26,CCL17,Positive,Th2
+658,CCL26,CXCL8,Positive,Eosinophil
+659,CCL26,GMCSF,Positive,"Eosinophil, Th2"
+660,CCL26,IL10,Positive,Th2
+661,CCL26,IL13,Positive,"Basophil, Th2"
+662,CCL26,IL16,Positive,Eosinophil
+663,CCL26,IL21,Positive,Th2
+664,CCL26,IL25,Positive,Th2
+665,CCL26,IL3,Positive,"Eosinophil, Th2"
+666,CCL26,IL31,Positive,Th2
+667,CCL26,IL4,Positive,"Basophil, Eosinophil, Th2"
+668,CCL26,IL5,Positive,"Eosinophil, Th2"
+669,CCL26,IL6,Positive,Eosinophil
+670,CCL26,IL9,Positive,Th2
+671,CCL26,TGFa,Positive,Eosinophil
+672,CCL26,TGFb,Positive,"Eosinophil, Th2"
+673,CCL26,TNFa,Positive,Th2
+674,CCL27,BAFF,Positive,B
+675,CCL27,IL10,Positive,B
+676,CCL27,IL35,Positive,B
+677,CCL27,IL6,Positive,B
+678,CCL27,LTa,Positive,B
+679,CCL27,LTb,Positive,B
+680,CCL28,APRIL,Positive,Eosinophil
+681,CCL28,BAFF,Positive,B
+682,CCL28,CXCL8,Positive,Eosinophil
+683,CCL28,GMCSF,Positive,Eosinophil
+684,CCL28,IL10,Positive,B
+685,CCL28,IL16,Positive,Eosinophil
+686,CCL28,IL3,Positive,Eosinophil
+687,CCL28,IL35,Positive,B
+688,CCL28,IL4,Positive,Eosinophil
+689,CCL28,IL5,Positive,Eosinophil
+690,CCL28,IL6,Positive,"B, Eosinophil"
+691,CCL28,LTa,Positive,B
+692,CCL28,LTb,Positive,B
+693,CCL28,TGFa,Positive,Eosinophil
+694,CCL28,TGFb,Positive,Eosinophil
+695,CCL3,APRIL,Positive,"DC, Eosinophil, Macrophage"
+696,CCL3,BAFF,Positive,"DC, Macrophage"
+697,CCL3,CCL18,Positive,DC
+698,CCL3,CCL19,Positive,DC
+699,CCL3,CCL2,Positive,"Macrophage, Monocyte, Th1"
+700,CCL3,CCL21,Positive,DC
+701,CCL3,CCL3,Positive,"Monocyte, NK"
+702,CCL3,CCL4,Positive,"Macrophage, Monocyte, NK, Neutrophil"
+703,CCL3,CCL5,Positive,NK
+704,CCL3,CX3CL1,Positive,Monocyte
+705,CCL3,CXCL1,Positive,Monocyte
+706,CCL3,CXCL12,Positive,BM Stromal
+707,CCL3,CXCL13,Positive,DC
+708,CCL3,CXCL2,Positive,"Monocyte, Th1"
+709,CCL3,CXCL3,Positive,Monocyte
+710,CCL3,CXCL8,Positive,"DC, Eosinophil, Macrophage, Monocyte"
+711,CCL3,GCSF,Positive,Monocyte
+712,CCL3,GMCSF,Positive,"Eosinophil, Macrophage, NK, Th1"
+713,CCL3,IFNa,Positive,DC
+714,CCL3,IFNg,Positive,"NK, Neutrophil, Th1"
+715,CCL3,IL1,Positive,"DC, Macrophage, Monocyte"
+716,CCL3,IL10,Positive,"DC, Macrophage, Th1"
+717,CCL3,IL12,Positive,"DC, Macrophage"
+718,CCL3,IL13,Positive,Basophil
+719,CCL3,IL16,Positive,Eosinophil
+720,CCL3,IL17A,Positive,"Macrophage, NK, Neutrophil"
+721,CCL3,IL17F,Positive,"NK, Neutrophil"
+722,CCL3,IL18,Positive,"DC, Macrophage"
+723,CCL3,IL19,Positive,Monocyte
+724,CCL3,IL1RA,Positive,"Macrophage, Monocyte, Neutrophil"
+725,CCL3,IL1a,Positive,Macrophage
+726,CCL3,IL1b,Positive,"DC, Macrophage"
+727,CCL3,IL2,Positive,Th1
+728,CCL3,IL20,Positive,"Monocyte, Th1"
+729,CCL3,IL22,Positive,"NK, Neutrophil"
+730,CCL3,IL23,Positive,"DC, Macrophage"
+731,CCL3,IL24,Positive,Monocyte
+732,CCL3,IL26,Positive,NK
+733,CCL3,IL27,Positive,"DC, Macrophage, Monocyte"
+734,CCL3,IL28,Positive,DC
+735,CCL3,IL29,Positive,DC
+736,CCL3,IL3,Positive,"Eosinophil, Th1"
+737,CCL3,IL32,Positive,"Monocyte, NK"
+738,CCL3,IL35,Positive,Monocyte
+739,CCL3,IL37,Positive,"DC, Monocyte"
+740,CCL3,IL4,Positive,"Basophil, DC, Eosinophil"
+741,CCL3,IL5,Positive,Eosinophil
+742,CCL3,IL6,Positive,"DC, Eosinophil, Macrophage, Monocyte"
+743,CCL3,IL7,Positive,BM Stromal
+744,CCL3,LIF,Positive,BM Stromal
+745,CCL3,LTa,Positive,Th1
+746,CCL3,MCSF,Positive,BM Stromal
+747,CCL3,OPGL,Positive,BM Stromal
+748,CCL3,OSM,Positive,Macrophage
+749,CCL3,TGFa,Positive,Eosinophil
+750,CCL3,TGFb,Positive,"DC, Eosinophil, Monocyte"
+751,CCL3,TNFa,Positive,"DC, Macrophage, Monocyte, NK, Th1"
+752,CCL3,TWEAK,Positive,Macrophage
+753,CCL3,Trail,Positive,Monocyte
+754,CCL4,APRIL,Positive,"DC, Eosinophil, Macrophage"
+755,CCL4,BAFF,Positive,"B, DC, Macrophage"
+756,CCL4,CCL18,Positive,DC
+757,CCL4,CCL19,Positive,DC
+758,CCL4,CCL2,Positive,"Macrophage, Monocyte, Th1"
+759,CCL4,CCL21,Positive,DC
+760,CCL4,CCL3,Positive,"Monocyte, NK"
+761,CCL4,CCL4,Positive,"Macrophage, Monocyte, NK"
+762,CCL4,CCL5,Positive,NK
+763,CCL4,CX3CL1,Positive,Monocyte
+764,CCL4,CXCL1,Positive,Monocyte
+765,CCL4,CXCL13,Positive,DC
+766,CCL4,CXCL2,Positive,"Monocyte, Th1"
+767,CCL4,CXCL3,Positive,Monocyte
+768,CCL4,CXCL8,Positive,"DC, Eosinophil, Macrophage, Monocyte"
+769,CCL4,GCSF,Positive,Monocyte
+770,CCL4,GMCSF,Positive,"Eosinophil, Macrophage, NK, Th1"
+771,CCL4,IFNa,Positive,DC
+772,CCL4,IFNg,Positive,"NK, Th1"
+773,CCL4,IL1,Positive,"DC, Macrophage, Monocyte"
+774,CCL4,IL10,Positive,"B, DC, Macrophage, Th1"
+775,CCL4,IL12,Positive,"DC, Macrophage"
+776,CCL4,IL13,Positive,Basophil
+777,CCL4,IL16,Positive,Eosinophil
+778,CCL4,IL17A,Positive,"Macrophage, NK"
+779,CCL4,IL17F,Positive,NK
+780,CCL4,IL18,Positive,"DC, Macrophage"
+781,CCL4,IL19,Positive,Monocyte
+782,CCL4,IL1RA,Positive,"Macrophage, Monocyte"
+783,CCL4,IL1a,Positive,Macrophage
+784,CCL4,IL1b,Positive,"DC, Macrophage"
+785,CCL4,IL2,Positive,Th1
+786,CCL4,IL20,Positive,"Monocyte, Th1"
+787,CCL4,IL22,Positive,NK
+788,CCL4,IL23,Positive,"DC, Macrophage"
+789,CCL4,IL24,Positive,Monocyte
+790,CCL4,IL26,Positive,NK
+791,CCL4,IL27,Positive,"DC, Macrophage, Monocyte"
+792,CCL4,IL28,Positive,DC
+793,CCL4,IL29,Positive,DC
+794,CCL4,IL3,Positive,"Eosinophil, Th1"
+795,CCL4,IL32,Positive,"Monocyte, NK"
+796,CCL4,IL35,Positive,"B, Monocyte"
+797,CCL4,IL37,Positive,"DC, Monocyte"
+798,CCL4,IL4,Positive,"Basophil, DC, Eosinophil"
+799,CCL4,IL5,Positive,Eosinophil
+800,CCL4,IL6,Positive,"B, DC, Eosinophil, Macrophage, Monocyte"
+801,CCL4,LTa,Positive,"B, Th1"
+802,CCL4,LTb,Positive,B
+803,CCL4,OSM,Positive,Macrophage
+804,CCL4,TGFa,Positive,Eosinophil
+805,CCL4,TGFb,Positive,"DC, Eosinophil, Monocyte"
+806,CCL4,TNFa,Positive,"DC, Macrophage, Monocyte, NK, Th1"
+807,CCL4,TWEAK,Positive,Macrophage
+808,CCL4,Trail,Positive,Monocyte
+809,CCL5,APRIL,Positive,"DC, Eosinophil, Macrophage"
+810,CCL5,BAFF,Positive,"DC, Macrophage"
+811,CCL5,CCL11,Positive,Th2
+812,CCL5,CCL17,Positive,Th2
+813,CCL5,CCL18,Positive,DC
+814,CCL5,CCL19,Positive,DC
+815,CCL5,CCL2,Positive,"Macrophage, Monocyte, Th1"
+816,CCL5,CCL21,Positive,DC
+817,CCL5,CCL3,Positive,"Monocyte, NK"
+818,CCL5,CCL4,Positive,"Macrophage, Monocyte, NK"
+819,CCL5,CCL5,Positive,NK
+820,CCL5,CX3CL1,Positive,Monocyte
+821,CCL5,CXCL1,Positive,Monocyte
+822,CCL5,CXCL13,Positive,DC
+823,CCL5,CXCL2,Positive,"Monocyte, Th1"
+824,CCL5,CXCL3,Positive,Monocyte
+825,CCL5,CXCL8,Positive,"DC, Eosinophil, Macrophage, Monocyte"
+826,CCL5,GCSF,Positive,Monocyte
+827,CCL5,GMCSF,Positive,"Eosinophil, Macrophage, NK, Th1, Th2"
+828,CCL5,IFNa,Positive,DC
+829,CCL5,IFNg,Positive,"NK, Th1"
+830,CCL5,IL1,Positive,"DC, Macrophage, Monocyte"
+831,CCL5,IL10,Positive,"DC, Macrophage, Th1, Th2"
+832,CCL5,IL12,Positive,"DC, Macrophage"
+833,CCL5,IL13,Positive,"Basophil, Th2"
+834,CCL5,IL16,Positive,Eosinophil
+835,CCL5,IL17A,Positive,"Macrophage, NK"
+836,CCL5,IL17F,Positive,NK
+837,CCL5,IL18,Positive,"DC, Macrophage"
+838,CCL5,IL19,Positive,Monocyte
+839,CCL5,IL1RA,Positive,"Macrophage, Monocyte"
+840,CCL5,IL1a,Positive,Macrophage
+841,CCL5,IL1b,Positive,"DC, Macrophage"
+842,CCL5,IL2,Positive,Th1
+843,CCL5,IL20,Positive,"Monocyte, Th1"
+844,CCL5,IL21,Positive,Th2
+845,CCL5,IL22,Positive,NK
+846,CCL5,IL23,Positive,"DC, Macrophage"
+847,CCL5,IL24,Positive,Monocyte
+848,CCL5,IL25,Positive,Th2
+849,CCL5,IL26,Positive,NK
+850,CCL5,IL27,Positive,"DC, Macrophage, Monocyte"
+851,CCL5,IL28,Positive,DC
+852,CCL5,IL29,Positive,DC
+853,CCL5,IL3,Positive,"Eosinophil, Th1, Th2"
+854,CCL5,IL31,Positive,Th2
+855,CCL5,IL32,Positive,"Monocyte, NK"
+856,CCL5,IL35,Positive,Monocyte
+857,CCL5,IL37,Positive,"DC, Monocyte"
+858,CCL5,IL4,Positive,"Basophil, DC, Eosinophil, Th2"
+859,CCL5,IL5,Positive,"Eosinophil, Th2"
+860,CCL5,IL6,Positive,"DC, Eosinophil, Macrophage, Monocyte"
+861,CCL5,IL9,Positive,Th2
+862,CCL5,LTa,Positive,Th1
+863,CCL5,OSM,Positive,Macrophage
+864,CCL5,TGFa,Positive,Eosinophil
+865,CCL5,TGFb,Positive,"DC, Eosinophil, Monocyte, Th2"
+866,CCL5,TNFa,Positive,"DC, Macrophage, Monocyte, NK, Th1, Th2"
+867,CCL5,TWEAK,Positive,Macrophage
+868,CCL5,Trail,Positive,Monocyte
+869,CCL6,BAFF,Positive,B
+870,CCL6,CCL2,Positive,Monocyte
+871,CCL6,CCL3,Positive,"Monocyte, NK"
+872,CCL6,CCL4,Positive,"Monocyte, NK"
+873,CCL6,CCL5,Positive,NK
+874,CCL6,CX3CL1,Positive,Monocyte
+875,CCL6,CXCL1,Positive,Monocyte
+876,CCL6,CXCL2,Positive,Monocyte
+877,CCL6,CXCL3,Positive,Monocyte
+878,CCL6,CXCL8,Positive,Monocyte
+879,CCL6,GCSF,Positive,Monocyte
+880,CCL6,GMCSF,Positive,NK
+881,CCL6,IFNg,Positive,NK
+882,CCL6,IL1,Positive,Monocyte
+883,CCL6,IL10,Positive,B
+884,CCL6,IL17A,Positive,NK
+885,CCL6,IL17F,Positive,NK
+886,CCL6,IL19,Positive,Monocyte
+887,CCL6,IL1RA,Positive,Monocyte
+888,CCL6,IL20,Positive,Monocyte
+889,CCL6,IL22,Positive,NK
+890,CCL6,IL24,Positive,Monocyte
+891,CCL6,IL26,Positive,NK
+892,CCL6,IL27,Positive,Monocyte
+893,CCL6,IL32,Positive,"Monocyte, NK"
+894,CCL6,IL35,Positive,"B, Monocyte"
+895,CCL6,IL37,Positive,Monocyte
+896,CCL6,IL6,Positive,"B, Monocyte"
+897,CCL6,LTa,Positive,B
+898,CCL6,LTb,Positive,B
+899,CCL6,TGFb,Positive,Monocyte
+900,CCL6,TNFa,Positive,"Monocyte, NK"
+901,CCL6,Trail,Positive,Monocyte
+902,CCL7,APRIL,Positive,"DC, Eosinophil"
+903,CCL7,BAFF,Positive,DC
+904,CCL7,CCL11,Positive,Th2
+905,CCL7,CCL17,Positive,Th2
+906,CCL7,CCL18,Positive,DC
+907,CCL7,CCL19,Positive,DC
+908,CCL7,CCL2,Positive,Monocyte
+909,CCL7,CCL21,Positive,DC
+910,CCL7,CCL3,Positive,"Monocyte, NK"
+911,CCL7,CCL4,Positive,"Monocyte, NK"
+912,CCL7,CCL5,Positive,NK
+913,CCL7,CX3CL1,Positive,Monocyte
+914,CCL7,CXCL1,Positive,Monocyte
+915,CCL7,CXCL13,Positive,DC
+916,CCL7,CXCL2,Positive,Monocyte
+917,CCL7,CXCL3,Positive,Monocyte
+918,CCL7,CXCL8,Positive,"DC, Eosinophil, Monocyte"
+919,CCL7,GCSF,Positive,Monocyte
+920,CCL7,GMCSF,Positive,"Eosinophil, NK, Th2"
+921,CCL7,IFNa,Positive,DC
+922,CCL7,IFNg,Positive,NK
+923,CCL7,IL1,Positive,"DC, Monocyte"
+924,CCL7,IL10,Positive,"DC, Th2"
+925,CCL7,IL12,Positive,DC
+926,CCL7,IL13,Positive,"Basophil, Th2"
+927,CCL7,IL16,Positive,Eosinophil
+928,CCL7,IL17A,Positive,NK
+929,CCL7,IL17F,Positive,NK
+930,CCL7,IL18,Positive,DC
+931,CCL7,IL19,Positive,Monocyte
+932,CCL7,IL1RA,Positive,Monocyte
+933,CCL7,IL1b,Positive,DC
+934,CCL7,IL20,Positive,Monocyte
+935,CCL7,IL21,Positive,Th2
+936,CCL7,IL22,Positive,NK
+937,CCL7,IL23,Positive,DC
+938,CCL7,IL24,Positive,Monocyte
+939,CCL7,IL25,Positive,Th2
+940,CCL7,IL26,Positive,NK
+941,CCL7,IL27,Positive,"DC, Monocyte"
+942,CCL7,IL28,Positive,DC
+943,CCL7,IL29,Positive,DC
+944,CCL7,IL3,Positive,"Eosinophil, Th2"
+945,CCL7,IL31,Positive,Th2
+946,CCL7,IL32,Positive,"Monocyte, NK"
+947,CCL7,IL35,Positive,Monocyte
+948,CCL7,IL37,Positive,"DC, Monocyte"
+949,CCL7,IL4,Positive,"Basophil, DC, Eosinophil, Th2"
+950,CCL7,IL5,Positive,"Eosinophil, Th2"
+951,CCL7,IL6,Positive,"DC, Eosinophil, Monocyte"
+952,CCL7,IL9,Positive,Th2
+953,CCL7,TGFa,Positive,Eosinophil
+954,CCL7,TGFb,Positive,"DC, Eosinophil, Monocyte, Th2"
+955,CCL7,TNFa,Positive,"DC, Monocyte, NK, Th2"
+956,CCL7,Trail,Positive,Monocyte
+957,CCL8,APRIL,Positive,"DC, Eosinophil"
+958,CCL8,BAFF,Positive,DC
+959,CCL8,CCL11,Positive,Th2
+960,CCL8,CCL17,Positive,Th2
+961,CCL8,CCL18,Positive,DC
+962,CCL8,CCL19,Positive,DC
+963,CCL8,CCL2,Positive,Monocyte
+964,CCL8,CCL21,Positive,DC
+965,CCL8,CCL3,Positive,"Monocyte, NK"
+966,CCL8,CCL4,Positive,"Monocyte, NK"
+967,CCL8,CCL5,Positive,NK
+968,CCL8,CX3CL1,Positive,Monocyte
+969,CCL8,CXCL1,Positive,Monocyte
+970,CCL8,CXCL13,Positive,DC
+971,CCL8,CXCL2,Positive,Monocyte
+972,CCL8,CXCL3,Positive,Monocyte
+973,CCL8,CXCL8,Positive,"DC, Eosinophil, Monocyte"
+974,CCL8,GCSF,Positive,Monocyte
+975,CCL8,GMCSF,Positive,"Eosinophil, NK, Th2"
+976,CCL8,IFNa,Positive,DC
+977,CCL8,IFNg,Positive,NK
+978,CCL8,IL1,Positive,"DC, Monocyte"
+979,CCL8,IL10,Positive,"DC, Th2"
+980,CCL8,IL12,Positive,DC
+981,CCL8,IL13,Positive,"Basophil, Th2"
+982,CCL8,IL16,Positive,Eosinophil
+983,CCL8,IL17A,Positive,NK
+984,CCL8,IL17F,Positive,NK
+985,CCL8,IL18,Positive,DC
+986,CCL8,IL19,Positive,Monocyte
+987,CCL8,IL1RA,Positive,Monocyte
+988,CCL8,IL1b,Positive,DC
+989,CCL8,IL20,Positive,Monocyte
+990,CCL8,IL21,Positive,Th2
+991,CCL8,IL22,Positive,NK
+992,CCL8,IL23,Positive,DC
+993,CCL8,IL24,Positive,Monocyte
+994,CCL8,IL25,Positive,Th2
+995,CCL8,IL26,Positive,NK
+996,CCL8,IL27,Positive,"DC, Monocyte"
+997,CCL8,IL28,Positive,DC
+998,CCL8,IL29,Positive,DC
+999,CCL8,IL3,Positive,"Eosinophil, Th2"
+1000,CCL8,IL31,Positive,Th2
+1001,CCL8,IL32,Positive,"Monocyte, NK"
+1002,CCL8,IL35,Positive,Monocyte
+1003,CCL8,IL37,Positive,"DC, Monocyte"
+1004,CCL8,IL4,Positive,"Basophil, DC, Eosinophil, Th2"
+1005,CCL8,IL5,Positive,"Eosinophil, Th2"
+1006,CCL8,IL6,Positive,"DC, Eosinophil, Monocyte"
+1007,CCL8,IL9,Positive,Th2
+1008,CCL8,TGFa,Positive,Eosinophil
+1009,CCL8,TGFb,Positive,"DC, Eosinophil, Monocyte, Th2"
+1010,CCL8,TNFa,Positive,"DC, Monocyte, NK, Th2"
+1011,CCL8,Trail,Positive,Monocyte
+1012,CCL9,APRIL,Positive,DC
+1013,CCL9,BAFF,Positive,"DC, Somatic"
+1014,CCL9,CCL18,Positive,DC
+1015,CCL9,CCL19,Positive,"DC, Somatic"
+1016,CCL9,CCL2,Positive,Monocyte
+1017,CCL9,CCL21,Positive,"DC, Somatic"
+1018,CCL9,CCL3,Positive,Monocyte
+1019,CCL9,CCL4,Positive,Monocyte
+1020,CCL9,CX3CL1,Positive,Monocyte
+1021,CCL9,CXCL1,Positive,Monocyte
+1022,CCL9,CXCL12,Positive,Somatic
+1023,CCL9,CXCL13,Positive,"DC, Somatic"
+1024,CCL9,CXCL2,Positive,"Monocyte, Somatic"
+1025,CCL9,CXCL3,Positive,Monocyte
+1026,CCL9,CXCL8,Positive,"DC, Monocyte, Somatic"
+1027,CCL9,GCSF,Positive,"Monocyte, Somatic"
+1028,CCL9,IFNa,Positive,DC
+1029,CCL9,IL1,Positive,"DC, Monocyte"
+1030,CCL9,IL10,Positive,DC
+1031,CCL9,IL12,Positive,DC
+1032,CCL9,IL18,Positive,DC
+1033,CCL9,IL19,Positive,Monocyte
+1034,CCL9,IL1RA,Positive,Monocyte
+1035,CCL9,IL1b,Positive,DC
+1036,CCL9,IL20,Positive,Monocyte
+1037,CCL9,IL23,Positive,DC
+1038,CCL9,IL24,Positive,Monocyte
+1039,CCL9,IL27,Positive,"DC, Monocyte"
+1040,CCL9,IL28,Positive,DC
+1041,CCL9,IL29,Positive,DC
+1042,CCL9,IL32,Positive,Monocyte
+1043,CCL9,IL35,Positive,Monocyte
+1044,CCL9,IL37,Positive,"DC, Monocyte"
+1045,CCL9,IL4,Positive,DC
+1046,CCL9,IL6,Positive,"DC, Monocyte"
+1047,CCL9,TGFb,Positive,"DC, Monocyte"
+1048,CCL9,TNFa,Positive,"DC, Monocyte"
+1049,CCL9,TSLP,Positive,Somatic
+1050,CCL9,Trail,Positive,Monocyte
+1051,CD30L,BAFF,Positive,B
+1052,CD30L,IL10,Positive,B
+1053,CD30L,IL35,Positive,B
+1054,CD30L,IL6,Positive,B
+1055,CD30L,LTa,Positive,B
+1056,CD30L,LTb,Positive,B
+1057,CD40L,BAFF,Positive,B
+1058,CD40L,IL10,Positive,B
+1059,CD40L,IL35,Positive,B
+1060,CD40L,IL6,Positive,B
+1061,CD40L,LTa,Positive,B
+1062,CD40L,LTb,Positive,B
+1063,CX3CL1,APRIL,Positive,DC
+1064,CX3CL1,BAFF,Positive,DC
+1065,CX3CL1,CCL18,Positive,DC
+1066,CX3CL1,CCL19,Positive,DC
+1067,CX3CL1,CCL2,Positive,Monocyte
+1068,CX3CL1,CCL21,Positive,DC
+1069,CX3CL1,CCL3,Positive,"Mast, Monocyte, NK"
+1070,CX3CL1,CCL4,Positive,"Monocyte, NK, Neutrophil"
+1071,CX3CL1,CCL5,Positive,NK
+1072,CX3CL1,CD40L,Positive,Mast
+1073,CX3CL1,CX3CL1,Positive,"Microglia, Monocyte"
+1074,CX3CL1,CXCL1,Positive,Monocyte
+1075,CX3CL1,CXCL13,Positive,DC
+1076,CX3CL1,CXCL2,Positive,Monocyte
+1077,CX3CL1,CXCL3,Positive,Monocyte
+1078,CX3CL1,CXCL8,Positive,"DC, Monocyte"
+1079,CX3CL1,GCSF,Positive,Monocyte
+1080,CX3CL1,GMCSF,Positive,"Mast, NK"
+1081,CX3CL1,IFNa,Positive,DC
+1082,CX3CL1,IFNg,Positive,"NK, Neutrophil"
+1083,CX3CL1,IL1,Positive,"DC, Monocyte"
+1084,CX3CL1,IL10,Positive,"DC, Mast"
+1085,CX3CL1,IL12,Positive,DC
+1086,CX3CL1,IL13,Positive,Mast
+1087,CX3CL1,IL16,Positive,Mast
+1088,CX3CL1,IL17A,Positive,"NK, Neutrophil"
+1089,CX3CL1,IL17F,Positive,"NK, Neutrophil"
+1090,CX3CL1,IL18,Positive,DC
+1091,CX3CL1,IL19,Positive,Monocyte
+1092,CX3CL1,IL1RA,Positive,"Monocyte, Neutrophil"
+1093,CX3CL1,IL1b,Positive,DC
+1094,CX3CL1,IL20,Positive,Monocyte
+1095,CX3CL1,IL22,Positive,"NK, Neutrophil"
+1096,CX3CL1,IL23,Positive,DC
+1097,CX3CL1,IL24,Positive,Monocyte
+1098,CX3CL1,IL25,Positive,Mast
+1099,CX3CL1,IL26,Positive,NK
+1100,CX3CL1,IL27,Positive,"DC, Monocyte"
+1101,CX3CL1,IL28,Positive,DC
+1102,CX3CL1,IL29,Positive,DC
+1103,CX3CL1,IL3,Positive,Mast
+1104,CX3CL1,IL32,Positive,"Monocyte, NK"
+1105,CX3CL1,IL33,Positive,Mast
+1106,CX3CL1,IL35,Positive,Monocyte
+1107,CX3CL1,IL37,Positive,"DC, Monocyte"
+1108,CX3CL1,IL4,Positive,"DC, Mast"
+1109,CX3CL1,IL5,Positive,Mast
+1110,CX3CL1,IL6,Positive,"DC, Monocyte"
+1111,CX3CL1,TGFb,Positive,"DC, Monocyte"
+1112,CX3CL1,TNFa,Positive,"DC, Mast, Monocyte, NK"
+1113,CX3CL1,Trail,Positive,Monocyte
+1114,CX3CL1,VEGF,Positive,Mast
+1115,CXCL1,APRIL,Positive,"DC, Macrophage"
+1116,CXCL1,BAFF,Positive,"DC, Macrophage"
+1117,CXCL1,CCL18,Positive,DC
+1118,CXCL1,CCL19,Positive,DC
+1119,CXCL1,CCL2,Positive,Macrophage
+1120,CXCL1,CCL21,Positive,DC
+1121,CXCL1,CCL3,Positive,NK
+1122,CXCL1,CCL4,Positive,"Macrophage, NK, Neutrophil"
+1123,CXCL1,CCL5,Positive,NK
+1124,CXCL1,CXCL13,Positive,DC
+1125,CXCL1,CXCL8,Positive,"DC, Macrophage"
+1126,CXCL1,GMCSF,Positive,"Macrophage, NK"
+1127,CXCL1,IFNa,Positive,DC
+1128,CXCL1,IFNg,Positive,"NK, Neutrophil"
+1129,CXCL1,IL1,Positive,"DC, Macrophage"
+1130,CXCL1,IL10,Positive,"DC, Macrophage"
+1131,CXCL1,IL12,Positive,"DC, Macrophage"
+1132,CXCL1,IL17A,Positive,"Macrophage, NK, Neutrophil"
+1133,CXCL1,IL17F,Positive,"NK, Neutrophil"
+1134,CXCL1,IL18,Positive,"DC, Macrophage"
+1135,CXCL1,IL1RA,Positive,"Macrophage, Neutrophil"
+1136,CXCL1,IL1a,Positive,Macrophage
+1137,CXCL1,IL1b,Positive,"DC, Macrophage"
+1138,CXCL1,IL22,Positive,"NK, Neutrophil"
+1139,CXCL1,IL23,Positive,"DC, Macrophage"
+1140,CXCL1,IL26,Positive,NK
+1141,CXCL1,IL27,Positive,"DC, Macrophage"
+1142,CXCL1,IL28,Positive,DC
+1143,CXCL1,IL29,Positive,DC
+1144,CXCL1,IL32,Positive,NK
+1145,CXCL1,IL37,Positive,DC
+1146,CXCL1,IL4,Positive,DC
+1147,CXCL1,IL6,Positive,"DC, Macrophage"
+1148,CXCL1,OSM,Positive,Macrophage
+1149,CXCL1,TGFb,Positive,DC
+1150,CXCL1,TNFa,Positive,"DC, Macrophage, NK"
+1151,CXCL1,TWEAK,Positive,Macrophage
+1152,CXCL10,BAFF,Positive,B
+1153,CXCL10,CCL2,Positive,"Monocyte, Th1"
+1154,CXCL10,CCL3,Positive,"Monocyte, NK"
+1155,CXCL10,CCL4,Positive,"Monocyte, NK"
+1156,CXCL10,CCL5,Positive,NK
+1157,CXCL10,CX3CL1,Positive,Monocyte
+1158,CXCL10,CXCL1,Positive,Monocyte
+1159,CXCL10,CXCL2,Positive,"Monocyte, Th1"
+1160,CXCL10,CXCL3,Positive,Monocyte
+1161,CXCL10,CXCL8,Positive,Monocyte
+1162,CXCL10,GCSF,Positive,Monocyte
+1163,CXCL10,GMCSF,Positive,"NK, Th1"
+1164,CXCL10,IFNa,Positive,pDC
+1165,CXCL10,IFNb,Positive,pDC
+1166,CXCL10,IFNg,Positive,"NK, Th1"
+1167,CXCL10,IL1,Positive,Monocyte
+1168,CXCL10,IL10,Positive,"B, Th1"
+1169,CXCL10,IL12,Positive,pDC
+1170,CXCL10,IL17A,Positive,NK
+1171,CXCL10,IL17F,Positive,NK
+1172,CXCL10,IL18,Positive,pDC
+1173,CXCL10,IL19,Positive,Monocyte
+1174,CXCL10,IL1RA,Positive,Monocyte
+1175,CXCL10,IL2,Positive,Th1
+1176,CXCL10,IL20,Positive,"Monocyte, Th1"
+1177,CXCL10,IL22,Positive,NK
+1178,CXCL10,IL24,Positive,Monocyte
+1179,CXCL10,IL26,Positive,NK
+1180,CXCL10,IL27,Positive,Monocyte
+1181,CXCL10,IL3,Positive,Th1
+1182,CXCL10,IL32,Positive,"Monocyte, NK"
+1183,CXCL10,IL35,Positive,"B, Monocyte"
+1184,CXCL10,IL37,Positive,Monocyte
+1185,CXCL10,IL6,Positive,"B, Monocyte, pDC"
+1186,CXCL10,LTa,Positive,"B, Th1"
+1187,CXCL10,LTb,Positive,B
+1188,CXCL10,TGFb,Positive,Monocyte
+1189,CXCL10,TNFa,Positive,"Monocyte, NK, Th1"
+1190,CXCL10,Trail,Positive,Monocyte
+1191,CXCL11,APRIL,Positive,Macrophage
+1192,CXCL11,BAFF,Positive,"B, Macrophage"
+1193,CXCL11,CCL2,Positive,"Macrophage, Monocyte, Th1"
+1194,CXCL11,CCL3,Positive,"Monocyte, NK"
+1195,CXCL11,CCL4,Positive,"Macrophage, Monocyte, NK"
+1196,CXCL11,CCL5,Positive,NK
+1197,CXCL11,CX3CL1,Positive,Monocyte
+1198,CXCL11,CXCL1,Positive,Monocyte
+1199,CXCL11,CXCL2,Positive,"Monocyte, Th1"
+1200,CXCL11,CXCL3,Positive,Monocyte
+1201,CXCL11,CXCL8,Positive,"Macrophage, Monocyte"
+1202,CXCL11,GCSF,Positive,Monocyte
+1203,CXCL11,GMCSF,Positive,"Macrophage, NK, Th1"
+1204,CXCL11,IFNa,Positive,pDC
+1205,CXCL11,IFNb,Positive,pDC
+1206,CXCL11,IFNg,Positive,"NK, Th1"
+1207,CXCL11,IL1,Positive,"Macrophage, Monocyte"
+1208,CXCL11,IL10,Positive,"B, Macrophage, Th1"
+1209,CXCL11,IL12,Positive,"Macrophage, pDC"
+1210,CXCL11,IL17A,Positive,"Macrophage, NK"
+1211,CXCL11,IL17F,Positive,NK
+1212,CXCL11,IL18,Positive,"Macrophage, pDC"
+1213,CXCL11,IL19,Positive,Monocyte
+1214,CXCL11,IL1RA,Positive,"Macrophage, Monocyte"
+1215,CXCL11,IL1a,Positive,Macrophage
+1216,CXCL11,IL1b,Positive,Macrophage
+1217,CXCL11,IL2,Positive,Th1
+1218,CXCL11,IL20,Positive,"Monocyte, Th1"
+1219,CXCL11,IL22,Positive,NK
+1220,CXCL11,IL23,Positive,Macrophage
+1221,CXCL11,IL24,Positive,Monocyte
+1222,CXCL11,IL26,Positive,NK
+1223,CXCL11,IL27,Positive,"Macrophage, Monocyte"
+1224,CXCL11,IL3,Positive,Th1
+1225,CXCL11,IL32,Positive,"Monocyte, NK"
+1226,CXCL11,IL35,Positive,"B, Monocyte"
+1227,CXCL11,IL37,Positive,Monocyte
+1228,CXCL11,IL6,Positive,"B, Macrophage, Monocyte, pDC"
+1229,CXCL11,LTa,Positive,"B, Th1"
+1230,CXCL11,LTb,Positive,B
+1231,CXCL11,OSM,Positive,Macrophage
+1232,CXCL11,TGFb,Positive,Monocyte
+1233,CXCL11,TNFa,Positive,"Macrophage, Monocyte, NK, Th1"
+1234,CXCL11,TWEAK,Positive,Macrophage
+1235,CXCL11,Trail,Positive,Monocyte
+1236,CXCL12,APRIL,Positive,"DC, Macrophage"
+1237,CXCL12,BAFF,Positive,"B, DC, Macrophage"
+1238,CXCL12,CCL18,Positive,DC
+1239,CXCL12,CCL19,Positive,DC
+1240,CXCL12,CCL2,Positive,"Macrophage, Monocyte"
+1241,CXCL12,CCL21,Positive,DC
+1242,CXCL12,CCL3,Positive,Monocyte
+1243,CXCL12,CCL4,Positive,"Macrophage, Monocyte, Neutrophil"
+1244,CXCL12,CX3CL1,Positive,Monocyte
+1245,CXCL12,CXCL1,Positive,Monocyte
+1246,CXCL12,CXCL13,Positive,DC
+1247,CXCL12,CXCL2,Positive,Monocyte
+1248,CXCL12,CXCL3,Positive,Monocyte
+1249,CXCL12,CXCL8,Positive,"DC, Macrophage, Monocyte"
+1250,CXCL12,GCSF,Positive,Monocyte
+1251,CXCL12,GMCSF,Positive,Macrophage
+1252,CXCL12,IFNa,Positive,"DC, pDC"
+1253,CXCL12,IFNb,Positive,pDC
+1254,CXCL12,IFNg,Positive,Neutrophil
+1255,CXCL12,IL1,Positive,"DC, Macrophage, Monocyte"
+1256,CXCL12,IL10,Positive,"B, DC, Macrophage"
+1257,CXCL12,IL12,Positive,"DC, Macrophage, pDC"
+1258,CXCL12,IL17A,Positive,"Macrophage, Neutrophil"
+1259,CXCL12,IL17F,Positive,Neutrophil
+1260,CXCL12,IL18,Positive,"DC, Macrophage, pDC"
+1261,CXCL12,IL19,Positive,Monocyte
+1262,CXCL12,IL1RA,Positive,"Macrophage, Monocyte, Neutrophil"
+1263,CXCL12,IL1a,Positive,Macrophage
+1264,CXCL12,IL1b,Positive,"DC, Macrophage"
+1265,CXCL12,IL20,Positive,Monocyte
+1266,CXCL12,IL22,Positive,Neutrophil
+1267,CXCL12,IL23,Positive,"DC, Macrophage"
+1268,CXCL12,IL24,Positive,Monocyte
+1269,CXCL12,IL27,Positive,"DC, Macrophage, Monocyte"
+1270,CXCL12,IL28,Positive,DC
+1271,CXCL12,IL29,Positive,DC
+1272,CXCL12,IL32,Positive,Monocyte
+1273,CXCL12,IL35,Positive,"B, Monocyte"
+1274,CXCL12,IL37,Positive,"DC, Monocyte"
+1275,CXCL12,IL4,Positive,DC
+1276,CXCL12,IL6,Positive,"B, DC, Macrophage, Monocyte, pDC"
+1277,CXCL12,LTa,Positive,B
+1278,CXCL12,LTb,Positive,B
+1279,CXCL12,OSM,Positive,Macrophage
+1280,CXCL12,TGFb,Positive,"DC, Monocyte"
+1281,CXCL12,TNFa,Positive,"DC, Macrophage, Monocyte"
+1282,CXCL12,TWEAK,Positive,Macrophage
+1283,CXCL12,Trail,Positive,Monocyte
+1284,CXCL13,APRIL,Positive,DC
+1285,CXCL13,BAFF,Positive,"B, DC"
+1286,CXCL13,CCL18,Positive,DC
+1287,CXCL13,CCL19,Positive,DC
+1288,CXCL13,CCL21,Positive,DC
+1289,CXCL13,CXCL13,Positive,DC
+1290,CXCL13,CXCL8,Positive,DC
+1291,CXCL13,IFNa,Positive,DC
+1292,CXCL13,IFNg,Positive,Tfh
+1293,CXCL13,IL1,Positive,DC
+1294,CXCL13,IL10,Positive,"B, DC"
+1295,CXCL13,IL12,Positive,DC
+1296,CXCL13,IL17A,Positive,Tfh
+1297,CXCL13,IL18,Positive,DC
+1298,CXCL13,IL1b,Positive,DC
+1299,CXCL13,IL21,Positive,Tfh
+1300,CXCL13,IL22,Positive,Tfh
+1301,CXCL13,IL23,Positive,DC
+1302,CXCL13,IL27,Positive,DC
+1303,CXCL13,IL28,Positive,DC
+1304,CXCL13,IL29,Positive,DC
+1305,CXCL13,IL35,Positive,B
+1306,CXCL13,IL37,Positive,DC
+1307,CXCL13,IL4,Positive,"DC, Tfh"
+1308,CXCL13,IL6,Positive,"B, DC, Tfh"
+1309,CXCL13,LTa,Positive,B
+1310,CXCL13,LTb,Positive,B
+1311,CXCL13,TGFb,Positive,"DC, Tfh"
+1312,CXCL13,TNFa,Positive,DC
+1313,CXCL14,BAFF,Positive,B
+1314,CXCL14,CCL2,Positive,Monocyte
+1315,CXCL14,CCL3,Positive,Monocyte
+1316,CXCL14,CCL4,Positive,Monocyte
+1317,CXCL14,CX3CL1,Positive,Monocyte
+1318,CXCL14,CXCL1,Positive,Monocyte
+1319,CXCL14,CXCL2,Positive,Monocyte
+1320,CXCL14,CXCL3,Positive,Monocyte
+1321,CXCL14,CXCL8,Positive,Monocyte
+1322,CXCL14,GCSF,Positive,Monocyte
+1323,CXCL14,IL1,Positive,Monocyte
+1324,CXCL14,IL10,Positive,B
+1325,CXCL14,IL19,Positive,Monocyte
+1326,CXCL14,IL1RA,Positive,Monocyte
+1327,CXCL14,IL20,Positive,Monocyte
+1328,CXCL14,IL24,Positive,Monocyte
+1329,CXCL14,IL27,Positive,Monocyte
+1330,CXCL14,IL32,Positive,Monocyte
+1331,CXCL14,IL35,Positive,"B, Monocyte"
+1332,CXCL14,IL37,Positive,Monocyte
+1333,CXCL14,IL6,Positive,"B, Monocyte"
+1334,CXCL14,LTa,Positive,B
+1335,CXCL14,LTb,Positive,B
+1336,CXCL14,TGFb,Positive,Monocyte
+1337,CXCL14,TNFa,Positive,Monocyte
+1338,CXCL14,Trail,Positive,Monocyte
+1339,CXCL15,CCL4,Positive,Neutrophil
+1340,CXCL15,IFNg,Positive,Neutrophil
+1341,CXCL15,IL17A,Positive,Neutrophil
+1342,CXCL15,IL17F,Positive,Neutrophil
+1343,CXCL15,IL1RA,Positive,Neutrophil
+1344,CXCL15,IL22,Positive,Neutrophil
+1345,CXCL2,APRIL,Positive,DC
+1346,CXCL2,BAFF,Positive,DC
+1347,CXCL2,CCL18,Positive,DC
+1348,CXCL2,CCL19,Positive,DC
+1349,CXCL2,CCL21,Positive,DC
+1350,CXCL2,CCL3,Positive,NK
+1351,CXCL2,CCL4,Positive,"NK, Neutrophil"
+1352,CXCL2,CCL5,Positive,NK
+1353,CXCL2,CXCL13,Positive,DC
+1354,CXCL2,CXCL8,Positive,DC
+1355,CXCL2,GMCSF,Positive,NK
+1356,CXCL2,IFNa,Positive,DC
+1357,CXCL2,IFNg,Positive,"NK, Neutrophil"
+1358,CXCL2,IL1,Positive,DC
+1359,CXCL2,IL10,Positive,DC
+1360,CXCL2,IL12,Positive,DC
+1361,CXCL2,IL17A,Positive,"NK, Neutrophil"
+1362,CXCL2,IL17F,Positive,"NK, Neutrophil"
+1363,CXCL2,IL18,Positive,DC
+1364,CXCL2,IL1RA,Positive,Neutrophil
+1365,CXCL2,IL1b,Positive,DC
+1366,CXCL2,IL22,Positive,"NK, Neutrophil"
+1367,CXCL2,IL23,Positive,DC
+1368,CXCL2,IL26,Positive,NK
+1369,CXCL2,IL27,Positive,DC
+1370,CXCL2,IL28,Positive,DC
+1371,CXCL2,IL29,Positive,DC
+1372,CXCL2,IL32,Positive,NK
+1373,CXCL2,IL37,Positive,DC
+1374,CXCL2,IL4,Positive,DC
+1375,CXCL2,IL6,Positive,DC
+1376,CXCL2,TGFb,Positive,DC
+1377,CXCL2,TNFa,Positive,"DC, NK"
+1378,CXCL3,CCL4,Positive,Neutrophil
+1379,CXCL3,IFNg,Positive,Neutrophil
+1380,CXCL3,IL17A,Positive,Neutrophil
+1381,CXCL3,IL17F,Positive,Neutrophil
+1382,CXCL3,IL1RA,Positive,Neutrophil
+1383,CXCL3,IL22,Positive,Neutrophil
+1384,CXCL5,CCL4,Positive,Neutrophil
+1385,CXCL5,IFNg,Positive,Neutrophil
+1386,CXCL5,IL17A,Positive,Neutrophil
+1387,CXCL5,IL17F,Positive,Neutrophil
+1388,CXCL5,IL1RA,Positive,Neutrophil
+1389,CXCL5,IL22,Positive,Neutrophil
+1390,CXCL6,CCL4,Positive,Neutrophil
+1391,CXCL6,IFNg,Positive,Neutrophil
+1392,CXCL6,IL17A,Positive,Neutrophil
+1393,CXCL6,IL17F,Positive,Neutrophil
+1394,CXCL6,IL1RA,Positive,Neutrophil
+1395,CXCL6,IL22,Positive,Neutrophil
+1396,CXCL7,CCL4,Positive,Neutrophil
+1397,CXCL7,IFNg,Positive,Neutrophil
+1398,CXCL7,IL17A,Positive,Neutrophil
+1399,CXCL7,IL17F,Positive,Neutrophil
+1400,CXCL7,IL1RA,Positive,Neutrophil
+1401,CXCL7,IL22,Positive,Neutrophil
+1402,CXCL8,APRIL,Positive,Macrophage
+1403,CXCL8,BAFF,Positive,Macrophage
+1404,CXCL8,CCL2,Positive,"Macrophage, Monocyte"
+1405,CXCL8,CCL3,Positive,Monocyte
+1406,CXCL8,CCL4,Positive,"Macrophage, Monocyte, Neutrophil"
+1407,CXCL8,CX3CL1,Positive,Monocyte
+1408,CXCL8,CXCL1,Positive,Monocyte
+1409,CXCL8,CXCL2,Positive,Monocyte
+1410,CXCL8,CXCL3,Positive,Monocyte
+1411,CXCL8,CXCL8,Positive,"Macrophage, Monocyte"
+1412,CXCL8,GCSF,Positive,Monocyte
+1413,CXCL8,GMCSF,Positive,Macrophage
+1414,CXCL8,IFNg,Positive,Neutrophil
+1415,CXCL8,IL1,Positive,"Macrophage, Monocyte"
+1416,CXCL8,IL10,Positive,Macrophage
+1417,CXCL8,IL12,Positive,Macrophage
+1418,CXCL8,IL13,Positive,Basophil
+1419,CXCL8,IL17A,Positive,"Macrophage, Neutrophil"
+1420,CXCL8,IL17F,Positive,Neutrophil
+1421,CXCL8,IL18,Positive,Macrophage
+1422,CXCL8,IL19,Positive,Monocyte
+1423,CXCL8,IL1RA,Positive,"Macrophage, Monocyte, Neutrophil"
+1424,CXCL8,IL1a,Positive,Macrophage
+1425,CXCL8,IL1b,Positive,Macrophage
+1426,CXCL8,IL20,Positive,Monocyte
+1427,CXCL8,IL22,Positive,Neutrophil
+1428,CXCL8,IL23,Positive,Macrophage
+1429,CXCL8,IL24,Positive,Monocyte
+1430,CXCL8,IL27,Positive,"Macrophage, Monocyte"
+1431,CXCL8,IL32,Positive,Monocyte
+1432,CXCL8,IL35,Positive,Monocyte
+1433,CXCL8,IL37,Positive,Monocyte
+1434,CXCL8,IL4,Positive,Basophil
+1435,CXCL8,IL6,Positive,"Macrophage, Monocyte"
+1436,CXCL8,OSM,Positive,Macrophage
+1437,CXCL8,TGFb,Positive,Monocyte
+1438,CXCL8,TNFa,Positive,"Macrophage, Monocyte"
+1439,CXCL8,TWEAK,Positive,Macrophage
+1440,CXCL8,Trail,Positive,Monocyte
+1441,CXCL9,APRIL,Positive,Macrophage
+1442,CXCL9,BAFF,Positive,"B, Macrophage"
+1443,CXCL9,CCL2,Positive,"Macrophage, Monocyte, Th1"
+1444,CXCL9,CCL3,Positive,"Monocyte, NK"
+1445,CXCL9,CCL4,Positive,"Macrophage, Monocyte, NK"
+1446,CXCL9,CCL5,Positive,NK
+1447,CXCL9,CX3CL1,Positive,Monocyte
+1448,CXCL9,CXCL1,Positive,Monocyte
+1449,CXCL9,CXCL2,Positive,"Monocyte, Th1"
+1450,CXCL9,CXCL3,Positive,Monocyte
+1451,CXCL9,CXCL8,Positive,"Macrophage, Monocyte"
+1452,CXCL9,GCSF,Positive,Monocyte
+1453,CXCL9,GMCSF,Positive,"Macrophage, NK, T_Cytotoxic, Th1"
+1454,CXCL9,IFNa,Positive,pDC
+1455,CXCL9,IFNb,Positive,pDC
+1456,CXCL9,IFNg,Positive,"NK, T_Cytotoxic, Th1"
+1457,CXCL9,IL1,Positive,"Macrophage, Monocyte"
+1458,CXCL9,IL10,Positive,"B, Macrophage, T_Cytotoxic, Th1"
+1459,CXCL9,IL12,Positive,"Macrophage, pDC"
+1460,CXCL9,IL17A,Positive,"Macrophage, NK"
+1461,CXCL9,IL17F,Positive,NK
+1462,CXCL9,IL18,Positive,"Macrophage, pDC"
+1463,CXCL9,IL19,Positive,Monocyte
+1464,CXCL9,IL1RA,Positive,"Macrophage, Monocyte"
+1465,CXCL9,IL1a,Positive,Macrophage
+1466,CXCL9,IL1b,Positive,Macrophage
+1467,CXCL9,IL2,Positive,Th1
+1468,CXCL9,IL20,Positive,"Monocyte, Th1"
+1469,CXCL9,IL22,Positive,NK
+1470,CXCL9,IL23,Positive,Macrophage
+1471,CXCL9,IL24,Positive,Monocyte
+1472,CXCL9,IL26,Positive,NK
+1473,CXCL9,IL27,Positive,"Macrophage, Monocyte"
+1474,CXCL9,IL3,Positive,"T_Cytotoxic, Th1"
+1475,CXCL9,IL32,Positive,"Monocyte, NK"
+1476,CXCL9,IL35,Positive,"B, Monocyte"
+1477,CXCL9,IL37,Positive,Monocyte
+1478,CXCL9,IL6,Positive,"B, Macrophage, Monocyte, pDC"
+1479,CXCL9,LTa,Positive,"B, T_Cytotoxic, Th1"
+1480,CXCL9,LTb,Positive,B
+1481,CXCL9,OSM,Positive,Macrophage
+1482,CXCL9,TGFb,Positive,Monocyte
+1483,CXCL9,TNFa,Positive,"Macrophage, Monocyte, NK, T_Cytotoxic, Th1"
+1484,CXCL9,TWEAK,Positive,Macrophage
+1485,CXCL9,Trail,Positive,Monocyte
+1486,GMCSF,APRIL,Positive,Eosinophil
+1487,GMCSF,CCL2,Positive,Monocyte
+1488,GMCSF,CCL3,Positive,"Mast, Monocyte"
+1489,GMCSF,CCL4,Positive,Monocyte
+1490,GMCSF,CD40L,Positive,Mast
+1491,GMCSF,CX3CL1,Positive,Monocyte
+1492,GMCSF,CXCL1,Positive,Monocyte
+1493,GMCSF,CXCL2,Positive,Monocyte
+1494,GMCSF,CXCL3,Positive,Monocyte
+1495,GMCSF,CXCL8,Positive,"Eosinophil, Monocyte"
+1496,GMCSF,GCSF,Positive,Monocyte
+1497,GMCSF,GMCSF,Positive,"Eosinophil, Mast"
+1498,GMCSF,IL1,Positive,Monocyte
+1499,GMCSF,IL10,Positive,Mast
+1500,GMCSF,IL13,Positive,"Basophil, Mast"
+1501,GMCSF,IL16,Positive,"Eosinophil, Mast"
+1502,GMCSF,IL19,Positive,Monocyte
+1503,GMCSF,IL1RA,Positive,Monocyte
+1504,GMCSF,IL20,Positive,Monocyte
+1505,GMCSF,IL24,Positive,Monocyte
+1506,GMCSF,IL25,Positive,Mast
+1507,GMCSF,IL27,Positive,Monocyte
+1508,GMCSF,IL3,Positive,"Eosinophil, Mast"
+1509,GMCSF,IL32,Positive,Monocyte
+1510,GMCSF,IL33,Positive,Mast
+1511,GMCSF,IL35,Positive,Monocyte
+1512,GMCSF,IL37,Positive,Monocyte
+1513,GMCSF,IL4,Positive,"Basophil, Eosinophil, Mast"
+1514,GMCSF,IL5,Positive,"Eosinophil, Mast"
+1515,GMCSF,IL6,Positive,"Eosinophil, Monocyte"
+1516,GMCSF,TGFa,Positive,Eosinophil
+1517,GMCSF,TGFb,Positive,"Eosinophil, Monocyte"
+1518,GMCSF,TNFa,Positive,"Mast, Monocyte"
+1519,GMCSF,Trail,Positive,Monocyte
+1520,GMCSF,VEGF,Positive,Mast
+1521,IFNa,APRIL,Positive,DC
+1522,IFNa,BAFF,Positive,DC
+1523,IFNa,CCL18,Positive,DC
+1524,IFNa,CCL19,Positive,DC
+1525,IFNa,CCL2,Positive,Monocyte
+1526,IFNa,CCL21,Positive,DC
+1527,IFNa,CCL3,Positive,"Monocyte, NK"
+1528,IFNa,CCL4,Positive,"Monocyte, NK"
+1529,IFNa,CCL5,Positive,NK
+1530,IFNa,CX3CL1,Positive,Monocyte
+1531,IFNa,CXCL1,Positive,Monocyte
+1532,IFNa,CXCL13,Positive,DC
+1533,IFNa,CXCL2,Positive,Monocyte
+1534,IFNa,CXCL3,Positive,Monocyte
+1535,IFNa,CXCL8,Positive,"DC, Monocyte"
+1536,IFNa,GCSF,Positive,Monocyte
+1537,IFNa,GMCSF,Positive,NK
+1538,IFNa,IFNa,Positive,"DC, pDC"
+1539,IFNa,IFNb,Positive,pDC
+1540,IFNa,IFNg,Positive,NK
+1541,IFNa,IL1,Positive,"DC, Monocyte"
+1542,IFNa,IL10,Positive,DC
+1543,IFNa,IL12,Positive,"DC, pDC"
+1544,IFNa,IL17A,Positive,NK
+1545,IFNa,IL17F,Positive,NK
+1546,IFNa,IL18,Positive,"DC, pDC"
+1547,IFNa,IL19,Positive,Monocyte
+1548,IFNa,IL1RA,Positive,Monocyte
+1549,IFNa,IL1b,Positive,DC
+1550,IFNa,IL20,Positive,Monocyte
+1551,IFNa,IL22,Positive,NK
+1552,IFNa,IL23,Positive,DC
+1553,IFNa,IL24,Positive,Monocyte
+1554,IFNa,IL26,Positive,NK
+1555,IFNa,IL27,Positive,"DC, Monocyte"
+1556,IFNa,IL28,Positive,DC
+1557,IFNa,IL29,Positive,DC
+1558,IFNa,IL32,Positive,"Monocyte, NK"
+1559,IFNa,IL35,Positive,Monocyte
+1560,IFNa,IL37,Positive,"DC, Monocyte"
+1561,IFNa,IL4,Positive,DC
+1562,IFNa,IL6,Positive,"DC, Monocyte, pDC"
+1563,IFNa,TGFb,Positive,"DC, Monocyte"
+1564,IFNa,TNFa,Positive,"DC, Monocyte, NK"
+1565,IFNa,Trail,Positive,Monocyte
+1566,IFNb,CCL3,Positive,NK
+1567,IFNb,CCL4,Positive,NK
+1568,IFNb,CCL5,Positive,NK
+1569,IFNb,GMCSF,Positive,NK
+1570,IFNb,IFNa,Positive,pDC
+1571,IFNb,IFNb,Positive,pDC
+1572,IFNb,IFNg,Positive,NK
+1573,IFNb,IL12,Positive,pDC
+1574,IFNb,IL17A,Positive,NK
+1575,IFNb,IL17F,Positive,NK
+1576,IFNb,IL18,Positive,pDC
+1577,IFNb,IL22,Positive,NK
+1578,IFNb,IL26,Positive,NK
+1579,IFNb,IL32,Positive,NK
+1580,IFNb,IL6,Positive,pDC
+1581,IFNb,TNFa,Positive,NK
+1582,IFNg,APRIL,Positive,"DC, Macrophage"
+1583,IFNg,BAFF,Positive,"DC, Macrophage"
+1584,IFNg,CCL11,Negative,Th2
+1585,IFNg,CCL17,Negative,Th2
+1586,IFNg,CCL18,Positive,DC
+1587,IFNg,CCL19,Positive,DC
+1588,IFNg,CCL2,Positive,Macrophage
+1589,IFNg,CCL21,Positive,DC
+1590,IFNg,CCL3,Positive,NK
+1591,IFNg,CCL4,Positive,"Macrophage, NK"
+1592,IFNg,CCL5,Positive,NK
+1593,IFNg,CXCL13,Positive,DC
+1594,IFNg,CXCL8,Positive,"DC, Macrophage"
+1595,IFNg,GMCSF,Positive,"Macrophage, NK"
+1596,IFNg,IFNa,Positive,DC
+1597,IFNg,IFNg,Positive,NK
+1598,IFNg,IL1,Positive,"DC, Macrophage"
+1599,IFNg,IL10,Positive,"DC, Macrophage, T_reg"
+1600,IFNg,IL12,Positive,"DC, Macrophage"
+1601,IFNg,IL13,Negative,Th2
+1602,IFNg,IL17A,Positive,"Macrophage, NK"
+1603,IFNg,IL17F,Positive,NK
+1604,IFNg,IL18,Positive,"DC, Macrophage"
+1605,IFNg,IL1RA,Positive,Macrophage
+1606,IFNg,IL1a,Positive,Macrophage
+1607,IFNg,IL1b,Positive,"DC, Macrophage"
+1608,IFNg,IL21,Negative,Th2
+1609,IFNg,IL22,Positive,NK
+1610,IFNg,IL23,Positive,"DC, Macrophage"
+1611,IFNg,IL25,Negative,Th2
+1612,IFNg,IL26,Positive,NK
+1613,IFNg,IL27,Positive,"DC, Macrophage"
+1614,IFNg,IL28,Positive,DC
+1615,IFNg,IL29,Positive,DC
+1616,IFNg,IL3,Negative,Th2
+1617,IFNg,IL31,Negative,Th2
+1618,IFNg,IL32,Positive,NK
+1619,IFNg,IL35,Positive,T_reg
+1620,IFNg,IL37,Positive,DC
+1621,IFNg,IL5,Negative,Th2
+1622,IFNg,IL6,Positive,"DC, Macrophage"
+1623,IFNg,IL9,Negative,Th2
+1624,IFNg,OSM,Positive,Macrophage
+1625,IFNg,TGFb,Positive,"DC, T_reg"
+1626,IFNg,TNFa,Positive,"DC, Macrophage, NK"
+1627,IFNg,TWEAK,Positive,Macrophage
+1628,IL1,APRIL,Positive,Macrophage
+1629,IL1,BAFF,Positive,Macrophage
+1630,IL1,CCL2,Positive,"Macrophage, Monocyte"
+1631,IL1,CCL20,Positive,"ILC3, Th17"
+1632,IL1,CCL3,Positive,Monocyte
+1633,IL1,CCL4,Positive,"Macrophage, Monocyte, Neutrophil"
+1634,IL1,CX3CL1,Positive,Monocyte
+1635,IL1,CXCL1,Positive,Monocyte
+1636,IL1,CXCL2,Positive,Monocyte
+1637,IL1,CXCL3,Positive,Monocyte
+1638,IL1,CXCL8,Positive,"Macrophage, Monocyte"
+1639,IL1,GCSF,Positive,Monocyte
+1640,IL1,GMCSF,Positive,"Macrophage, Th17"
+1641,IL1,IFNg,Positive,"IEL, ILC3, Neutrophil, Th17"
+1642,IL1,IL1,Positive,"Macrophage, Monocyte"
+1643,IL1,IL10,Positive,"Macrophage, Th17"
+1644,IL1,IL12,Positive,Macrophage
+1645,IL1,IL17A,Positive,"ILC3, Macrophage, Neutrophil, Th17"
+1646,IL1,IL17F,Positive,"ILC3, Neutrophil, Th17"
+1647,IL1,IL18,Positive,Macrophage
+1648,IL1,IL19,Positive,Monocyte
+1649,IL1,IL1RA,Positive,"Macrophage, Monocyte, Neutrophil"
+1650,IL1,IL1a,Positive,Macrophage
+1651,IL1,IL1b,Positive,Macrophage
+1652,IL1,IL20,Positive,Monocyte
+1653,IL1,IL21,Positive,Th17
+1654,IL1,IL22,Positive,"ILC3, Neutrophil, Th17"
+1655,IL1,IL23,Positive,Macrophage
+1656,IL1,IL24,Positive,Monocyte
+1657,IL1,IL26,Positive,Th17
+1658,IL1,IL27,Positive,"Macrophage, Monocyte"
+1659,IL1,IL3,Positive,Th17
+1660,IL1,IL32,Positive,Monocyte
+1661,IL1,IL37,Positive,Monocyte
+1662,IL1,IL6,Positive,"Macrophage, Monocyte"
+1663,IL1,Keratinocyte growth factor,Positive,IEL
+1664,IL1,LTb,Positive,ILC3
+1665,IL1,OSM,Positive,Macrophage
+1666,IL1,TGFb,Positive,"IEL, Monocyte"
+1667,IL1,TNFa,Positive,"Macrophage, Monocyte, Th17"
+1668,IL1,TWEAK,Positive,Macrophage
+1669,IL1,Trail,Positive,Monocyte
+1670,IL10,APRIL,Negative,"DC, Macrophage"
+1671,IL10,BAFF,Negative,"DC, Macrophage"
+1672,IL10,CCL18,Negative,DC
+1673,IL10,CCL19,Negative,DC
+1674,IL10,CCL2,Negative,Macrophage
+1675,IL10,CCL21,Negative,DC
+1676,IL10,CCL3,Positive,Mast
+1677,IL10,CCL4,Negative,Macrophage
+1678,IL10,CD40L,Positive,Mast
+1679,IL10,CXCL13,Negative,DC
+1680,IL10,CXCL8,Negative,"DC, Macrophage"
+1681,IL10,IFNa,Negative,DC
+1682,IL10,IL1,Negative,"DC, Macrophage"
+1683,IL10,IL10,Positive,"B, Mast, T_reg"
+1684,IL10,IL12,Negative,"DC, Macrophage"
+1685,IL10,IL13,Positive,Mast
+1686,IL10,IL16,Positive,Mast
+1687,IL10,IL17A,Negative,Macrophage
+1688,IL10,IL18,Negative,"DC, Macrophage"
+1689,IL10,IL1RA,Negative,Macrophage
+1690,IL10,IL1a,Negative,Macrophage
+1691,IL10,IL1b,Negative,"DC, Macrophage"
+1692,IL10,IL2,Negative,T_CD4
+1693,IL10,IL23,Negative,"DC, Macrophage"
+1694,IL10,IL25,Positive,Mast
+1695,IL10,IL27,Negative,"DC, Macrophage"
+1696,IL10,IL28,Negative,DC
+1697,IL10,IL29,Negative,DC
+1698,IL10,IL3,Positive,Mast
+1699,IL10,IL33,Positive,Mast
+1700,IL10,IL35,Positive,"B, T_reg"
+1701,IL10,IL37,Negative,DC
+1702,IL10,IL5,Positive,Mast
+1703,IL10,IL6,Negative,"DC, Macrophage"
+1704,IL10,LTa,Positive,B
+1705,IL10,LTb,Positive,B
+1706,IL10,OSM,Negative,Macrophage
+1707,IL10,TNFa,Negative,"DC, Macrophage"
+1708,IL10,TWEAK,Negative,Macrophage
+1709,IL10,VEGF,Positive,Mast
+1710,IL12,CCL2,Positive,Th1
+1711,IL12,CCL20,Positive,ILC3
+1712,IL12,CCL3,Positive,NK
+1713,IL12,CCL4,Positive,NK
+1714,IL12,CCL5,Positive,NK
+1715,IL12,CXCL2,Positive,Th1
+1716,IL12,GMCSF,Positive,"NK, Th1"
+1717,IL12,IFNa,Positive,pDC
+1718,IL12,IFNb,Positive,pDC
+1719,IL12,IFNg,Positive,"ILC1, ILC3, NK, T_CD8, Th1"
+1720,IL12,IL10,Positive,Th1
+1721,IL12,IL12,Positive,pDC
+1722,IL12,IL17A,Positive,"ILC3, NK"
+1723,IL12,IL17F,Positive,"ILC3, NK"
+1724,IL12,IL18,Positive,pDC
+1725,IL12,IL2,Positive,"T_CD8, Th1"
+1726,IL12,IL20,Positive,Th1
+1727,IL12,IL22,Positive,"ILC3, NK"
+1728,IL12,IL26,Positive,NK
+1729,IL12,IL3,Positive,Th1
+1730,IL12,IL32,Positive,NK
+1731,IL12,IL6,Positive,pDC
+1732,IL12,LTa,Positive,Th1
+1733,IL12,LTb,Positive,ILC3
+1734,IL12,TNFa,Positive,"NK, Th1"
+1735,IL13,APRIL,Positive,"DC, Eosinophil, Macrophage"
+1736,IL13,BAFF,Positive,"DC, Macrophage"
+1737,IL13,CCL11,Positive,Th2
+1738,IL13,CCL17,Positive,Th2
+1739,IL13,CCL18,Positive,DC
+1740,IL13,CCL19,Positive,DC
+1741,IL13,CCL21,Positive,DC
+1742,IL13,CXCL13,Positive,DC
+1743,IL13,CXCL8,Positive,"DC, Eosinophil, Macrophage"
+1744,IL13,GMCSF,Positive,"Eosinophil, Macrophage, Th2"
+1745,IL13,IFNa,Positive,DC
+1746,IL13,IL1,Positive,"DC, Macrophage"
+1747,IL13,IL10,Positive,"DC, Macrophage, Th2"
+1748,IL13,IL12,Positive,"DC, Macrophage"
+1749,IL13,IL13,Positive,"Basophil, Th2"
+1750,IL13,IL16,Positive,Eosinophil
+1751,IL13,IL18,Positive,"DC, Macrophage"
+1752,IL13,IL1b,Positive,"DC, Macrophage"
+1753,IL13,IL21,Positive,Th2
+1754,IL13,IL23,Positive,"DC, Macrophage"
+1755,IL13,IL25,Positive,Th2
+1756,IL13,IL27,Positive,"DC, Macrophage"
+1757,IL13,IL28,Positive,DC
+1758,IL13,IL29,Positive,DC
+1759,IL13,IL3,Positive,"Eosinophil, Th2"
+1760,IL13,IL31,Positive,Th2
+1761,IL13,IL37,Positive,DC
+1762,IL13,IL4,Positive,"Basophil, DC, Eosinophil, Th2"
+1763,IL13,IL5,Positive,"Eosinophil, Th2"
+1764,IL13,IL6,Positive,"DC, Eosinophil, Macrophage"
+1765,IL13,IL9,Positive,Th2
+1766,IL13,TGFa,Positive,Eosinophil
+1767,IL13,TGFb,Positive,"DC, Eosinophil, Th2"
+1768,IL13,TNFa,Positive,"DC, Macrophage, Th2"
+1769,IL15,APRIL,Positive,DC
+1770,IL15,BAFF,Positive,DC
+1771,IL15,CCL18,Positive,DC
+1772,IL15,CCL19,Positive,DC
+1773,IL15,CCL21,Positive,DC
+1774,IL15,CCL3,Positive,NK
+1775,IL15,CCL4,Positive,NK
+1776,IL15,CCL5,Positive,NK
+1777,IL15,CXCL13,Positive,DC
+1778,IL15,CXCL8,Positive,DC
+1779,IL15,GMCSF,Positive,NK
+1780,IL15,IFNa,Positive,DC
+1781,IL15,IFNg,Positive,"IEL, NK"
+1782,IL15,IL1,Positive,DC
+1783,IL15,IL10,Positive,DC
+1784,IL15,IL12,Positive,DC
+1785,IL15,IL17A,Positive,NK
+1786,IL15,IL17F,Positive,NK
+1787,IL15,IL18,Positive,DC
+1788,IL15,IL1b,Positive,DC
+1789,IL15,IL22,Positive,NK
+1790,IL15,IL23,Positive,DC
+1791,IL15,IL26,Positive,NK
+1792,IL15,IL27,Positive,DC
+1793,IL15,IL28,Positive,DC
+1794,IL15,IL29,Positive,DC
+1795,IL15,IL32,Positive,NK
+1796,IL15,IL37,Positive,DC
+1797,IL15,IL4,Positive,DC
+1798,IL15,IL6,Positive,DC
+1799,IL15,Keratinocyte growth factor,Positive,IEL
+1800,IL15,TGFb,Positive,"DC, IEL"
+1801,IL15,TNFa,Positive,"DC, NK"
+1802,IL16,APRIL,Positive,Eosinophil
+1803,IL16,CCL2,Positive,Monocyte
+1804,IL16,CCL3,Positive,Monocyte
+1805,IL16,CCL4,Positive,Monocyte
+1806,IL16,CX3CL1,Positive,Monocyte
+1807,IL16,CXCL1,Positive,Monocyte
+1808,IL16,CXCL2,Positive,Monocyte
+1809,IL16,CXCL3,Positive,Monocyte
+1810,IL16,CXCL8,Positive,"Eosinophil, Monocyte"
+1811,IL16,GCSF,Positive,Monocyte
+1812,IL16,GMCSF,Positive,Eosinophil
+1813,IL16,IL1,Positive,Monocyte
+1814,IL16,IL16,Positive,Eosinophil
+1815,IL16,IL19,Positive,Monocyte
+1816,IL16,IL1RA,Positive,Monocyte
+1817,IL16,IL20,Positive,Monocyte
+1818,IL16,IL24,Positive,Monocyte
+1819,IL16,IL27,Positive,Monocyte
+1820,IL16,IL3,Positive,Eosinophil
+1821,IL16,IL32,Positive,Monocyte
+1822,IL16,IL35,Positive,Monocyte
+1823,IL16,IL37,Positive,Monocyte
+1824,IL16,IL4,Positive,Eosinophil
+1825,IL16,IL5,Positive,Eosinophil
+1826,IL16,IL6,Positive,"Eosinophil, Monocyte"
+1827,IL16,TGFa,Positive,Eosinophil
+1828,IL16,TGFb,Positive,"Eosinophil, Monocyte"
+1829,IL16,TNFa,Positive,Monocyte
+1830,IL16,Trail,Positive,Monocyte
+1831,IL17A,BAFF,Positive,Somatic
+1832,IL17A,CCL19,Positive,Somatic
+1833,IL17A,CCL21,Positive,Somatic
+1834,IL17A,CCL4,Positive,Neutrophil
+1835,IL17A,CXCL12,Positive,Somatic
+1836,IL17A,CXCL13,Positive,Somatic
+1837,IL17A,CXCL2,Positive,Somatic
+1838,IL17A,CXCL8,Positive,Somatic
+1839,IL17A,GCSF,Positive,Somatic
+1840,IL17A,IFNg,Positive,Neutrophil
+1841,IL17A,IL17A,Positive,Neutrophil
+1842,IL17A,IL17F,Positive,Neutrophil
+1843,IL17A,IL1RA,Positive,Neutrophil
+1844,IL17A,IL22,Positive,Neutrophil
+1845,IL17A,TSLP,Positive,Somatic
+1846,IL18,CCL2,Positive,Th1
+1847,IL18,CCL3,Positive,NK
+1848,IL18,CCL4,Positive,"NK, Neutrophil"
+1849,IL18,CCL5,Positive,NK
+1850,IL18,CXCL2,Positive,Th1
+1851,IL18,GMCSF,Positive,"NK, Th1"
+1852,IL18,IFNa,Positive,pDC
+1853,IL18,IFNb,Positive,pDC
+1854,IL18,IFNg,Positive,"ILC1, NK, Neutrophil, T_CD8, Th1"
+1855,IL18,IL10,Positive,Th1
+1856,IL18,IL12,Positive,pDC
+1857,IL18,IL17A,Positive,"NK, Neutrophil"
+1858,IL18,IL17F,Positive,"NK, Neutrophil"
+1859,IL18,IL18,Positive,pDC
+1860,IL18,IL1RA,Positive,Neutrophil
+1861,IL18,IL2,Positive,"T_CD8, Th1"
+1862,IL18,IL20,Positive,Th1
+1863,IL18,IL22,Positive,"NK, Neutrophil"
+1864,IL18,IL26,Positive,NK
+1865,IL18,IL3,Positive,Th1
+1866,IL18,IL32,Positive,NK
+1867,IL18,IL6,Positive,pDC
+1868,IL18,LTa,Positive,Th1
+1869,IL18,TNFa,Positive,"NK, Th1"
+1870,IL19,CCL2,Positive,Monocyte
+1871,IL19,CCL3,Positive,Monocyte
+1872,IL19,CCL4,Positive,Monocyte
+1873,IL19,CX3CL1,Positive,Monocyte
+1874,IL19,CXCL1,Positive,Monocyte
+1875,IL19,CXCL2,Positive,Monocyte
+1876,IL19,CXCL3,Positive,Monocyte
+1877,IL19,CXCL8,Positive,Monocyte
+1878,IL19,GCSF,Positive,Monocyte
+1879,IL19,IL1,Positive,Monocyte
+1880,IL19,IL19,Positive,Monocyte
+1881,IL19,IL1RA,Positive,Monocyte
+1882,IL19,IL20,Positive,Monocyte
+1883,IL19,IL24,Positive,Monocyte
+1884,IL19,IL27,Positive,Monocyte
+1885,IL19,IL32,Positive,Monocyte
+1886,IL19,IL35,Positive,Monocyte
+1887,IL19,IL37,Positive,Monocyte
+1888,IL19,IL6,Positive,Monocyte
+1889,IL19,TGFb,Positive,Monocyte
+1890,IL19,TNFa,Positive,Monocyte
+1891,IL19,Trail,Positive,Monocyte
+1892,IL1a,APRIL,Positive,Macrophage
+1893,IL1a,BAFF,Positive,Macrophage
+1894,IL1a,CCL2,Positive,Macrophage
+1895,IL1a,CCL4,Positive,Macrophage
+1896,IL1a,CXCL8,Positive,Macrophage
+1897,IL1a,GMCSF,Positive,Macrophage
+1898,IL1a,IL1,Positive,Macrophage
+1899,IL1a,IL10,Positive,Macrophage
+1900,IL1a,IL12,Positive,Macrophage
+1901,IL1a,IL17A,Positive,Macrophage
+1902,IL1a,IL18,Positive,Macrophage
+1903,IL1a,IL1RA,Positive,Macrophage
+1904,IL1a,IL1a,Positive,Macrophage
+1905,IL1a,IL1b,Positive,Macrophage
+1906,IL1a,IL23,Positive,Macrophage
+1907,IL1a,IL27,Positive,Macrophage
+1908,IL1a,IL6,Positive,Macrophage
+1909,IL1a,OSM,Positive,Macrophage
+1910,IL1a,TNFa,Positive,Macrophage
+1911,IL1a,TWEAK,Positive,Macrophage
+1912,IL1b,APRIL,Positive,Macrophage
+1913,IL1b,BAFF,Positive,Macrophage
+1914,IL1b,CCL2,Positive,Macrophage
+1915,IL1b,CCL20,Positive,ILC3
+1916,IL1b,CCL4,Positive,Macrophage
+1917,IL1b,CXCL8,Positive,Macrophage
+1918,IL1b,GMCSF,Positive,Macrophage
+1919,IL1b,IFNg,Positive,ILC3
+1920,IL1b,IL1,Positive,Macrophage
+1921,IL1b,IL10,Positive,Macrophage
+1922,IL1b,IL12,Positive,Macrophage
+1923,IL1b,IL17A,Positive,"ILC3, Macrophage"
+1924,IL1b,IL17F,Positive,ILC3
+1925,IL1b,IL18,Positive,Macrophage
+1926,IL1b,IL1RA,Positive,Macrophage
+1927,IL1b,IL1a,Positive,Macrophage
+1928,IL1b,IL1b,Positive,Macrophage
+1929,IL1b,IL22,Positive,ILC3
+1930,IL1b,IL23,Positive,Macrophage
+1931,IL1b,IL27,Positive,Macrophage
+1932,IL1b,IL6,Positive,Macrophage
+1933,IL1b,LTb,Positive,ILC3
+1934,IL1b,OSM,Positive,Macrophage
+1935,IL1b,TNFa,Positive,Macrophage
+1936,IL1b,TWEAK,Positive,Macrophage
+1937,IL2,BAFF,Positive,B
+1938,IL2,CCL3,Positive,NK
+1939,IL2,CCL4,Positive,NK
+1940,IL2,CCL5,Positive,NK
+1941,IL2,GMCSF,Positive,NK
+1942,IL2,IFNg,Positive,"NK, T_CD8"
+1943,IL2,IL10,Positive,"B, T_reg"
+1944,IL2,IL17A,Positive,NK
+1945,IL2,IL17F,Positive,NK
+1946,IL2,IL2,Positive,"T_CD4, T_CD8"
+1947,IL2,IL22,Positive,NK
+1948,IL2,IL26,Positive,NK
+1949,IL2,IL32,Positive,NK
+1950,IL2,IL35,Positive,"B, T_reg"
+1951,IL2,IL6,Positive,B
+1952,IL2,LTa,Positive,B
+1953,IL2,LTb,Positive,B
+1954,IL2,TGFb,Positive,T_reg
+1955,IL2,TNFa,Positive,NK
+1956,IL21,BAFF,Positive,B
+1957,IL21,CCL3,Positive,NK
+1958,IL21,CCL4,Positive,NK
+1959,IL21,CCL5,Positive,NK
+1960,IL21,GMCSF,Positive,NK
+1961,IL21,IFNg,Positive,"NK, Tfh"
+1962,IL21,IL10,Positive,B
+1963,IL21,IL17A,Positive,"NK, Tfh"
+1964,IL21,IL17F,Positive,NK
+1965,IL21,IL21,Positive,Tfh
+1966,IL21,IL22,Positive,"NK, Tfh"
+1967,IL21,IL26,Positive,NK
+1968,IL21,IL32,Positive,NK
+1969,IL21,IL35,Positive,B
+1970,IL21,IL4,Positive,Tfh
+1971,IL21,IL6,Positive,"B, Tfh"
+1972,IL21,LTa,Positive,B
+1973,IL21,LTb,Positive,B
+1974,IL21,TGFb,Positive,Tfh
+1975,IL21,TNFa,Positive,NK
+1976,IL23,CCL2,Positive,Th1
+1977,IL23,CCL20,Positive,"ILC3, Th17"
+1978,IL23,CXCL2,Positive,Th1
+1979,IL23,GMCSF,Positive,"Th1, Th17"
+1980,IL23,IFNg,Positive,"ILC3, Th1, Th17"
+1981,IL23,IL10,Positive,"Th1, Th17"
+1982,IL23,IL17A,Positive,"ILC3, LTi, Th17"
+1983,IL23,IL17F,Positive,"ILC3, Th17"
+1984,IL23,IL2,Positive,Th1
+1985,IL23,IL20,Positive,Th1
+1986,IL23,IL21,Positive,Th17
+1987,IL23,IL22,Positive,"ILC3, LTi, Th17"
+1988,IL23,IL26,Positive,Th17
+1989,IL23,IL3,Positive,"Th1, Th17"
+1990,IL23,LTa,Positive,Th1
+1991,IL23,LTb,Positive,ILC3
+1992,IL23,TNFa,Positive,"Th1, Th17"
+1993,IL25,CCL11,Positive,Th2
+1994,IL25,CCL17,Positive,Th2
+1995,IL25,CCL3,Positive,Mast
+1996,IL25,CD40L,Positive,Mast
+1997,IL25,GMCSF,Positive,"Mast, Th2"
+1998,IL25,IL10,Positive,"Mast, Th2"
+1999,IL25,IL13,Positive,"ILC2, Mast, Th2"
+2000,IL25,IL16,Positive,Mast
+2001,IL25,IL17A,Positive,ILC2
+2002,IL25,IL21,Positive,Th2
+2003,IL25,IL22,Positive,ILC2
+2004,IL25,IL25,Positive,"Mast, Th2"
+2005,IL25,IL3,Positive,"Mast, Th2"
+2006,IL25,IL31,Positive,Th2
+2007,IL25,IL33,Positive,Mast
+2008,IL25,IL4,Positive,"ILC2, Mast, Th2"
+2009,IL25,IL5,Positive,"ILC2, Mast, Th2"
+2010,IL25,IL9,Positive,"ILC2, Th2"
+2011,IL25,TGFb,Positive,Th2
+2012,IL25,TNFa,Positive,"Mast, Th2"
+2013,IL25,VEGF,Positive,Mast
+2014,IL27,IL2,Negative,T_CD4
+2015,IL3,APRIL,Positive,Eosinophil
+2016,IL3,CCL3,Positive,Mast
+2017,IL3,CD40L,Positive,Mast
+2018,IL3,CXCL8,Positive,Eosinophil
+2019,IL3,GMCSF,Positive,"Eosinophil, Mast"
+2020,IL3,IL10,Positive,Mast
+2021,IL3,IL13,Positive,"Basophil, Mast"
+2022,IL3,IL16,Positive,"Eosinophil, Mast"
+2023,IL3,IL25,Positive,Mast
+2024,IL3,IL3,Positive,"Eosinophil, Mast"
+2025,IL3,IL33,Positive,Mast
+2026,IL3,IL4,Positive,"Basophil, Eosinophil, Mast"
+2027,IL3,IL5,Positive,"Eosinophil, Mast"
+2028,IL3,IL6,Positive,Eosinophil
+2029,IL3,TGFa,Positive,Eosinophil
+2030,IL3,TGFb,Positive,Eosinophil
+2031,IL3,TNFa,Positive,Mast
+2032,IL3,VEGF,Positive,Mast
+2033,IL31,CCL11,Positive,Th2
+2034,IL31,CCL17,Positive,Th2
+2035,IL31,GMCSF,Positive,Th2
+2036,IL31,IL10,Positive,Th2
+2037,IL31,IL13,Positive,Th2
+2038,IL31,IL21,Positive,Th2
+2039,IL31,IL25,Positive,Th2
+2040,IL31,IL3,Positive,Th2
+2041,IL31,IL31,Positive,Th2
+2042,IL31,IL4,Positive,Th2
+2043,IL31,IL5,Positive,Th2
+2044,IL31,IL9,Positive,Th2
+2045,IL31,TGFb,Positive,Th2
+2046,IL31,TNFa,Positive,Th2
+2047,IL33,CCL11,Positive,Th2
+2048,IL33,CCL17,Positive,Th2
+2049,IL33,CCL3,Positive,Mast
+2050,IL33,CD40L,Positive,Mast
+2051,IL33,GMCSF,Positive,"Mast, Th2"
+2052,IL33,IL10,Positive,"Mast, Th2"
+2053,IL33,IL13,Positive,"ILC2, Mast, Th2"
+2054,IL33,IL16,Positive,Mast
+2055,IL33,IL17A,Positive,ILC2
+2056,IL33,IL21,Positive,Th2
+2057,IL33,IL22,Positive,ILC2
+2058,IL33,IL25,Positive,"Mast, Th2"
+2059,IL33,IL3,Positive,"Mast, Th2"
+2060,IL33,IL31,Positive,Th2
+2061,IL33,IL33,Positive,Mast
+2062,IL33,IL4,Positive,"ILC2, Mast, Th2"
+2063,IL33,IL5,Positive,"ILC2, Mast, Th2"
+2064,IL33,IL9,Positive,"ILC2, Th2"
+2065,IL33,TGFb,Positive,Th2
+2066,IL33,TNFa,Positive,"Mast, Th2"
+2067,IL33,VEGF,Positive,Mast
+2068,IL35,IL2,Negative,T_CD4
+2069,IL36,APRIL,Positive,"DC, Macrophage"
+2070,IL36,BAFF,Positive,"DC, Macrophage"
+2071,IL36,CCL18,Positive,DC
+2072,IL36,CCL19,Positive,DC
+2073,IL36,CCL2,Positive,Macrophage
+2074,IL36,CCL21,Positive,DC
+2075,IL36,CCL4,Positive,Macrophage
+2076,IL36,CXCL13,Positive,DC
+2077,IL36,CXCL8,Positive,"DC, Macrophage"
+2078,IL36,GMCSF,Positive,Macrophage
+2079,IL36,IFNa,Positive,DC
+2080,IL36,IL1,Positive,"DC, Macrophage"
+2081,IL36,IL10,Positive,"DC, Macrophage"
+2082,IL36,IL12,Positive,"DC, Macrophage"
+2083,IL36,IL17A,Positive,Macrophage
+2084,IL36,IL18,Positive,"DC, Macrophage"
+2085,IL36,IL1RA,Positive,Macrophage
+2086,IL36,IL1a,Positive,Macrophage
+2087,IL36,IL1b,Positive,"DC, Macrophage"
+2088,IL36,IL23,Positive,"DC, Macrophage"
+2089,IL36,IL27,Positive,"DC, Macrophage"
+2090,IL36,IL28,Positive,DC
+2091,IL36,IL29,Positive,DC
+2092,IL36,IL37,Positive,DC
+2093,IL36,IL4,Positive,DC
+2094,IL36,IL6,Positive,"DC, Macrophage"
+2095,IL36,OSM,Positive,Macrophage
+2096,IL36,TGFb,Positive,DC
+2097,IL36,TNFa,Positive,"DC, Macrophage"
+2098,IL36,TWEAK,Positive,Macrophage
+2099,IL37,APRIL,Negative,DC
+2100,IL37,BAFF,Negative,DC
+2101,IL37,CCL18,Negative,DC
+2102,IL37,CCL19,Negative,DC
+2103,IL37,CCL2,Negative,Monocyte
+2104,IL37,CCL21,Negative,DC
+2105,IL37,CCL3,Negative,Monocyte
+2106,IL37,CCL4,Negative,Monocyte
+2107,IL37,CX3CL1,Negative,Monocyte
+2108,IL37,CXCL1,Negative,Monocyte
+2109,IL37,CXCL13,Negative,DC
+2110,IL37,CXCL2,Negative,Monocyte
+2111,IL37,CXCL3,Negative,Monocyte
+2112,IL37,CXCL8,Negative,"DC, Monocyte"
+2113,IL37,GCSF,Negative,Monocyte
+2114,IL37,IFNa,Negative,DC
+2115,IL37,IL1,Negative,"DC, Monocyte"
+2116,IL37,IL10,Negative,DC
+2117,IL37,IL12,Negative,DC
+2118,IL37,IL18,Negative,DC
+2119,IL37,IL19,Negative,Monocyte
+2120,IL37,IL1RA,Negative,Monocyte
+2121,IL37,IL1b,Negative,DC
+2122,IL37,IL20,Negative,Monocyte
+2123,IL37,IL23,Negative,DC
+2124,IL37,IL24,Negative,Monocyte
+2125,IL37,IL27,Negative,"DC, Monocyte"
+2126,IL37,IL28,Negative,DC
+2127,IL37,IL29,Negative,DC
+2128,IL37,IL32,Negative,Monocyte
+2129,IL37,IL35,Negative,Monocyte
+2130,IL37,IL37,Negative,"DC, Monocyte"
+2131,IL37,IL4,Negative,DC
+2132,IL37,IL6,Negative,"DC, Monocyte"
+2133,IL37,TGFb,Negative,"DC, Monocyte"
+2134,IL37,TNFa,Negative,"DC, Monocyte"
+2135,IL37,Trail,Negative,Monocyte
+2136,IL4,APRIL,Positive,Macrophage
+2137,IL4,BAFF,Positive,"B, Macrophage"
+2138,IL4,CCL11,Positive,Th2
+2139,IL4,CCL17,Positive,Th2
+2140,IL4,CCL2,Positive,Macrophage
+2141,IL4,CCL3,Positive,Mast
+2142,IL4,CCL4,Positive,Macrophage
+2143,IL4,CD40L,Positive,Mast
+2144,IL4,CXCL8,Positive,Macrophage
+2145,IL4,GMCSF,Positive,"Macrophage, Mast, Th2"
+2146,IL4,IL1,Positive,Macrophage
+2147,IL4,IL10,Positive,"B, Macrophage, Mast, Th2"
+2148,IL4,IL12,Positive,Macrophage
+2149,IL4,IL13,Positive,"Basophil, Mast, Th2"
+2150,IL4,IL16,Positive,Mast
+2151,IL4,IL17A,Positive,Macrophage
+2152,IL4,IL18,Positive,Macrophage
+2153,IL4,IL1RA,Positive,Macrophage
+2154,IL4,IL1a,Positive,Macrophage
+2155,IL4,IL1b,Positive,Macrophage
+2156,IL4,IL21,Positive,Th2
+2157,IL4,IL23,Positive,Macrophage
+2158,IL4,IL25,Positive,"Mast, Th2"
+2159,IL4,IL27,Positive,Macrophage
+2160,IL4,IL3,Positive,"Mast, Th2"
+2161,IL4,IL31,Positive,Th2
+2162,IL4,IL33,Positive,Mast
+2163,IL4,IL35,Positive,B
+2164,IL4,IL4,Positive,"Basophil, Mast, Th2"
+2165,IL4,IL5,Positive,"Mast, Th2"
+2166,IL4,IL6,Positive,"B, Macrophage"
+2167,IL4,IL9,Positive,Th2
+2168,IL4,LTa,Positive,B
+2169,IL4,LTb,Positive,B
+2170,IL4,OSM,Positive,Macrophage
+2171,IL4,TGFb,Positive,Th2
+2172,IL4,TNFa,Positive,"Macrophage, Mast, Th2"
+2173,IL4,TWEAK,Positive,Macrophage
+2174,IL4,VEGF,Positive,Mast
+2175,IL5,APRIL,Positive,Eosinophil
+2176,IL5,BAFF,Positive,B
+2177,IL5,CCL3,Positive,Mast
+2178,IL5,CD40L,Positive,Mast
+2179,IL5,CXCL8,Positive,Eosinophil
+2180,IL5,GMCSF,Positive,"Eosinophil, Mast"
+2181,IL5,IL10,Positive,"B, Mast"
+2182,IL5,IL13,Positive,"Basophil, Mast"
+2183,IL5,IL16,Positive,"Eosinophil, Mast"
+2184,IL5,IL25,Positive,Mast
+2185,IL5,IL3,Positive,"Eosinophil, Mast"
+2186,IL5,IL33,Positive,Mast
+2187,IL5,IL35,Positive,B
+2188,IL5,IL4,Positive,"Basophil, Eosinophil, Mast"
+2189,IL5,IL5,Positive,"Eosinophil, Mast"
+2190,IL5,IL6,Positive,"B, Eosinophil"
+2191,IL5,LTa,Positive,B
+2192,IL5,LTb,Positive,B
+2193,IL5,TGFa,Positive,Eosinophil
+2194,IL5,TGFb,Positive,Eosinophil
+2195,IL5,TNFa,Positive,Mast
+2196,IL5,VEGF,Positive,Mast
+2197,IL6,APRIL,Positive,Macrophage
+2198,IL6,BAFF,Positive,"B, Macrophage"
+2199,IL6,CCL2,Positive,"Macrophage, Monocyte"
+2200,IL6,CCL20,Positive,Th17
+2201,IL6,CCL3,Positive,Monocyte
+2202,IL6,CCL4,Positive,"Macrophage, Monocyte"
+2203,IL6,CX3CL1,Positive,Monocyte
+2204,IL6,CXCL1,Positive,Monocyte
+2205,IL6,CXCL2,Positive,Monocyte
+2206,IL6,CXCL3,Positive,Monocyte
+2207,IL6,CXCL8,Positive,"Macrophage, Monocyte"
+2208,IL6,GCSF,Positive,Monocyte
+2209,IL6,GMCSF,Positive,"Macrophage, Th17"
+2210,IL6,IFNa,Positive,pDC
+2211,IL6,IFNb,Positive,pDC
+2212,IL6,IFNg,Positive,Th17
+2213,IL6,IL1,Positive,"Macrophage, Monocyte"
+2214,IL6,IL10,Positive,"B, Macrophage, Th17"
+2215,IL6,IL12,Positive,"Macrophage, pDC"
+2216,IL6,IL17A,Positive,"Macrophage, Th17"
+2217,IL6,IL17F,Positive,Th17
+2218,IL6,IL18,Positive,"Macrophage, pDC"
+2219,IL6,IL19,Positive,Monocyte
+2220,IL6,IL1RA,Positive,"Macrophage, Monocyte"
+2221,IL6,IL1a,Positive,Macrophage
+2222,IL6,IL1b,Positive,Macrophage
+2223,IL6,IL20,Positive,Monocyte
+2224,IL6,IL21,Positive,Th17
+2225,IL6,IL22,Positive,Th17
+2226,IL6,IL23,Positive,Macrophage
+2227,IL6,IL24,Positive,Monocyte
+2228,IL6,IL26,Positive,Th17
+2229,IL6,IL27,Positive,"Macrophage, Monocyte"
+2230,IL6,IL3,Positive,Th17
+2231,IL6,IL32,Positive,Monocyte
+2232,IL6,IL35,Positive,"B, Monocyte"
+2233,IL6,IL37,Positive,Monocyte
+2234,IL6,IL6,Positive,"B, Macrophage, Monocyte, pDC"
+2235,IL6,LTa,Positive,B
+2236,IL6,LTb,Positive,B
+2237,IL6,OSM,Positive,Macrophage
+2238,IL6,TNFa,Positive,"Macrophage, Monocyte, Th17"
+2239,IL6,TWEAK,Positive,Macrophage
+2240,IL6,Trail,Positive,Monocyte
+2241,IL7,IFNg,Positive,T_CD8
+2242,IL7,IL2,Positive,"T_CD4, T_CD8"
+2243,IL9,CCL11,Positive,Th2
+2244,IL9,CCL17,Positive,Th2
+2245,IL9,CCL3,Positive,Mast
+2246,IL9,CD40L,Positive,Mast
+2247,IL9,GMCSF,Positive,"Mast, Th2"
+2248,IL9,IL10,Positive,"Mast, Th2"
+2249,IL9,IL13,Positive,"ILC2, Mast, Th2"
+2250,IL9,IL16,Positive,Mast
+2251,IL9,IL17A,Positive,ILC2
+2252,IL9,IL21,Positive,Th2
+2253,IL9,IL22,Positive,ILC2
+2254,IL9,IL25,Positive,"Mast, Th2"
+2255,IL9,IL3,Positive,"Mast, Th2"
+2256,IL9,IL31,Positive,Th2
+2257,IL9,IL33,Positive,Mast
+2258,IL9,IL4,Positive,"ILC2, Mast, Th2"
+2259,IL9,IL5,Positive,"ILC2, Mast, Th2"
+2260,IL9,IL9,Positive,"ILC2, Th2"
+2261,IL9,TGFb,Positive,Th2
+2262,IL9,TNFa,Positive,"Mast, Th2"
+2263,IL9,VEGF,Positive,Mast
+2264,LIGHT,APRIL,Positive,DC
+2265,LIGHT,BAFF,Positive,DC
+2266,LIGHT,CCL18,Positive,DC
+2267,LIGHT,CCL19,Positive,DC
+2268,LIGHT,CCL21,Positive,DC
+2269,LIGHT,CXCL13,Positive,DC
+2270,LIGHT,CXCL8,Positive,DC
+2271,LIGHT,IFNa,Positive,DC
+2272,LIGHT,IL1,Positive,DC
+2273,LIGHT,IL10,Positive,DC
+2274,LIGHT,IL12,Positive,DC
+2275,LIGHT,IL18,Positive,DC
+2276,LIGHT,IL1b,Positive,DC
+2277,LIGHT,IL23,Positive,DC
+2278,LIGHT,IL27,Positive,DC
+2279,LIGHT,IL28,Positive,DC
+2280,LIGHT,IL29,Positive,DC
+2281,LIGHT,IL37,Positive,DC
+2282,LIGHT,IL4,Positive,DC
+2283,LIGHT,IL6,Positive,DC
+2284,LIGHT,TGFb,Positive,DC
+2285,LIGHT,TNFa,Positive,DC
+2286,LTa,APRIL,Positive,Macrophage
+2287,LTa,CCL2,Positive,"Macrophage, Monocyte"
+2288,LTa,CCL3,Positive,Monocyte
+2289,LTa,CCL4,Positive,"Macrophage, Monocyte, Neutrophil"
+2290,LTa,CX3CL1,Positive,Monocyte
+2291,LTa,CXCL1,Positive,Monocyte
+2292,LTa,CXCL2,Positive,Monocyte
+2293,LTa,CXCL3,Positive,Monocyte
+2294,LTa,CXCL8,Positive,"Macrophage, Monocyte"
+2295,LTa,GCSF,Positive,Monocyte
+2296,LTa,GMCSF,Positive,Macrophage
+2297,LTa,IFNg,Positive,Neutrophil
+2298,LTa,IL1,Positive,"Macrophage, Monocyte"
+2299,LTa,IL12,Positive,Macrophage
+2300,LTa,IL17A,Positive,"Macrophage, Neutrophil"
+2301,LTa,IL17F,Positive,Neutrophil
+2302,LTa,IL18,Positive,Macrophage
+2303,LTa,IL19,Positive,Monocyte
+2304,LTa,IL1RA,Positive,"Macrophage, Monocyte, Neutrophil"
+2305,LTa,IL1a,Positive,Macrophage
+2306,LTa,IL1b,Positive,Macrophage
+2307,LTa,IL20,Positive,Monocyte
+2308,LTa,IL22,Positive,Neutrophil
+2309,LTa,IL23,Positive,Macrophage
+2310,LTa,IL24,Positive,Monocyte
+2311,LTa,IL27,Positive,"Macrophage, Monocyte"
+2312,LTa,IL32,Positive,Monocyte
+2313,LTa,IL37,Positive,Monocyte
+2314,LTa,IL6,Positive,"Macrophage, Monocyte"
+2315,LTa,LTa,Negative,B
+2316,LTa,LTb,Negative,B
+2317,LTa,OSM,Positive,Macrophage
+2318,LTa,TGFb,Positive,Monocyte
+2319,LTa,TNFa,Positive,"Macrophage, Monocyte"
+2320,LTa,TWEAK,Positive,Macrophage
+2321,LTa,Trail,Positive,Monocyte
+2322,MIF,APRIL,Positive,Macrophage
+2323,MIF,BAFF,Positive,Macrophage
+2324,MIF,CCL2,Positive,Macrophage
+2325,MIF,CCL4,Positive,Macrophage
+2326,MIF,CXCL8,Positive,Macrophage
+2327,MIF,GMCSF,Positive,Macrophage
+2328,MIF,IL1,Positive,Macrophage
+2329,MIF,IL10,Positive,Macrophage
+2330,MIF,IL12,Positive,Macrophage
+2331,MIF,IL17A,Positive,Macrophage
+2332,MIF,IL18,Positive,Macrophage
+2333,MIF,IL1RA,Positive,Macrophage
+2334,MIF,IL1a,Positive,Macrophage
+2335,MIF,IL1b,Positive,Macrophage
+2336,MIF,IL23,Positive,Macrophage
+2337,MIF,IL27,Positive,Macrophage
+2338,MIF,IL6,Positive,Macrophage
+2339,MIF,OSM,Positive,Macrophage
+2340,MIF,TNFa,Positive,Macrophage
+2341,MIF,TWEAK,Positive,Macrophage
+2342,OPGL,CXCL12,Positive,BM Stromal
+2343,OPGL,IL7,Positive,BM Stromal
+2344,OPGL,LIF,Positive,BM Stromal
+2345,OPGL,MCSF,Positive,BM Stromal
+2346,OPGL,OPGL,Positive,BM Stromal
+2347,S1P,GMCSF,Positive,T_Cytotoxic
+2348,S1P,IFNg,Positive,"T_CD8, T_Cytotoxic"
+2349,S1P,IL10,Positive,T_Cytotoxic
+2350,S1P,IL2,Positive,"T_CD4, T_CD8"
+2351,S1P,IL3,Positive,T_Cytotoxic
+2352,S1P,LTa,Positive,T_Cytotoxic
+2353,S1P,TNFa,Positive,T_Cytotoxic
+2354,SCF,CCL3,Positive,Mast
+2355,SCF,CD40L,Positive,Mast
+2356,SCF,GMCSF,Positive,Mast
+2357,SCF,IL10,Positive,Mast
+2358,SCF,IL13,Positive,Mast
+2359,SCF,IL16,Positive,Mast
+2360,SCF,IL25,Positive,Mast
+2361,SCF,IL3,Positive,Mast
+2362,SCF,IL33,Positive,Mast
+2363,SCF,IL4,Positive,Mast
+2364,SCF,IL5,Positive,Mast
+2365,SCF,TNFa,Positive,Mast
+2366,SCF,VEGF,Positive,Mast
+2367,TGFa,APRIL,Positive,Eosinophil
+2368,TGFa,CXCL8,Positive,Eosinophil
+2369,TGFa,GMCSF,Positive,Eosinophil
+2370,TGFa,IL16,Positive,Eosinophil
+2371,TGFa,IL3,Positive,Eosinophil
+2372,TGFa,IL4,Positive,Eosinophil
+2373,TGFa,IL5,Positive,Eosinophil
+2374,TGFa,IL6,Positive,Eosinophil
+2375,TGFa,TGFa,Positive,Eosinophil
+2376,TGFa,TGFb,Positive,Eosinophil
+2377,TGFb,BAFF,Negative,Macrophage
+2378,TGFb,CCL11,Negative,Th2
+2379,TGFb,CCL17,Negative,Th2
+2380,TGFb,CCL2,Negative,"Macrophage, Th1"
+2381,TGFb,CXCL2,Negative,Th1
+2382,TGFb,GMCSF,Negative,"Macrophage, Th1, Th2"
+2383,TGFb,IL1,Negative,Macrophage
+2384,TGFb,IL10,Negative,"Macrophage, Th1, Th2"
+2385,TGFb,IL12,Negative,Macrophage
+2386,TGFb,IL13,Negative,Th2
+2387,TGFb,IL16,Positive,Eosinophil
+2388,TGFb,IL17F,Positive,Neutrophil
+2389,TGFb,IL18,Negative,Macrophage
+2390,TGFb,IL1a,Negative,Macrophage
+2391,TGFb,IL1b,Negative,Macrophage
+2392,TGFb,IL2,Negative,"T_CD4, Th1"
+2393,TGFb,IL20,Negative,Th1
+2394,TGFb,IL21,Negative,Th2
+2395,TGFb,IL22,Positive,Neutrophil
+2396,TGFb,IL23,Negative,Macrophage
+2397,TGFb,IL25,Negative,Th2
+2398,TGFb,IL27,Negative,Macrophage
+2399,TGFb,IL3,Negative,"Th1, Th2"
+2400,TGFb,IL31,Negative,Th2
+2401,TGFb,IL35,Positive,T_reg
+2402,TGFb,IL9,Negative,Th2
+2403,TGFb,LTa,Negative,Th1
+2404,TGFb,OSM,Negative,Macrophage
+2405,TGFb,TGFa,Positive,Eosinophil
+2406,TGFb,TGFb,Positive,"Eosinophil, T_reg"
+2407,TGFb,TNFa,Negative,"Macrophage, Th1, Th2"
+2408,TGFb,TWEAK,Negative,Macrophage
+2409,TNFa,APRIL,Positive,"DC, Macrophage"
+2410,TNFa,BAFF,Positive,"DC, Macrophage"
+2411,TNFa,CCL18,Positive,DC
+2412,TNFa,CCL19,Positive,DC
+2413,TNFa,CCL2,Positive,"Macrophage, Monocyte"
+2414,TNFa,CCL21,Positive,DC
+2415,TNFa,CCL3,Positive,Monocyte
+2416,TNFa,CCL4,Positive,"Macrophage, Monocyte"
+2417,TNFa,CX3CL1,Positive,Monocyte
+2418,TNFa,CXCL1,Positive,Monocyte
+2419,TNFa,CXCL13,Positive,DC
+2420,TNFa,CXCL2,Positive,Monocyte
+2421,TNFa,CXCL3,Positive,Monocyte
+2422,TNFa,CXCL8,Positive,"DC, Macrophage, Monocyte"
+2423,TNFa,GCSF,Positive,Monocyte
+2424,TNFa,GMCSF,Positive,Macrophage
+2425,TNFa,IFNa,Positive,DC
+2426,TNFa,IL1,Positive,"DC, Macrophage, Monocyte"
+2427,TNFa,IL10,Positive,"DC, Macrophage"
+2428,TNFa,IL12,Positive,"DC, Macrophage"
+2429,TNFa,IL17A,Positive,Macrophage
+2430,TNFa,IL18,Positive,"DC, Macrophage"
+2431,TNFa,IL19,Positive,Monocyte
+2432,TNFa,IL1RA,Positive,"Macrophage, Monocyte"
+2433,TNFa,IL1a,Positive,Macrophage
+2434,TNFa,IL1b,Positive,"DC, Macrophage"
+2435,TNFa,IL20,Positive,Monocyte
+2436,TNFa,IL23,Positive,"DC, Macrophage"
+2437,TNFa,IL24,Positive,Monocyte
+2438,TNFa,IL27,Positive,"DC, Macrophage, Monocyte"
+2439,TNFa,IL28,Positive,DC
+2440,TNFa,IL29,Positive,DC
+2441,TNFa,IL32,Positive,Monocyte
+2442,TNFa,IL35,Positive,Monocyte
+2443,TNFa,IL37,Positive,"DC, Monocyte"
+2444,TNFa,IL4,Positive,DC
+2445,TNFa,IL6,Positive,"DC, Macrophage, Monocyte"
+2446,TNFa,OSM,Positive,Macrophage
+2447,TNFa,TGFb,Positive,"DC, Monocyte"
+2448,TNFa,TNFa,Positive,"DC, Macrophage, Monocyte"
+2449,TNFa,TWEAK,Positive,Macrophage
+2450,TNFa,Trail,Positive,Monocyte
+2451,TSLP,APRIL,Positive,DC
+2452,TSLP,BAFF,Positive,DC
+2453,TSLP,CCL11,Positive,Th2
+2454,TSLP,CCL17,Positive,Th2
+2455,TSLP,CCL18,Positive,DC
+2456,TSLP,CCL19,Positive,DC
+2457,TSLP,CCL21,Positive,DC
+2458,TSLP,CXCL13,Positive,DC
+2459,TSLP,CXCL8,Positive,DC
+2460,TSLP,GMCSF,Positive,Th2
+2461,TSLP,IFNa,Positive,DC
+2462,TSLP,IL1,Positive,DC
+2463,TSLP,IL10,Positive,"DC, Th2"
+2464,TSLP,IL12,Positive,DC
+2465,TSLP,IL13,Positive,"ILC2, Th2"
+2466,TSLP,IL17A,Positive,ILC2
+2467,TSLP,IL18,Positive,DC
+2468,TSLP,IL1b,Positive,DC
+2469,TSLP,IL21,Positive,Th2
+2470,TSLP,IL22,Positive,ILC2
+2471,TSLP,IL23,Positive,DC
+2472,TSLP,IL25,Positive,Th2
+2473,TSLP,IL27,Positive,DC
+2474,TSLP,IL28,Positive,DC
+2475,TSLP,IL29,Positive,DC
+2476,TSLP,IL3,Positive,Th2
+2477,TSLP,IL31,Positive,Th2
+2478,TSLP,IL37,Positive,DC
+2479,TSLP,IL4,Positive,"DC, ILC2, Th2"
+2480,TSLP,IL5,Positive,"ILC2, Th2"
+2481,TSLP,IL6,Positive,DC
+2482,TSLP,IL9,Positive,"ILC2, Th2"
+2483,TSLP,TGFb,Positive,"DC, Th2"
+2484,TSLP,TNFa,Positive,"DC, Th2"
