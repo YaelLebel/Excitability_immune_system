@@ -30,7 +30,7 @@ Only monomials up to total degree 2 in \(X,Y\) are used inside the brackets, whi
 
 - `five_interactions/`  
   Scripts, notebooks and data to enumerate and filter all circuits with exactly five interaction terms:
-  - `notebooks/01_enumerate_5_interactions.ipynb` and `notebooks/03_filter_by_dynamics_row*.ipynb` construct all combinatorial allocations of 5 terms between production/removal of \(X\) and \(Y\) (total 8568 circuits), then successively filter:
+  - `notebooks/01_enumerate_5_interactions.ipynb` and `notebooks/03_filter_by_dynamics_*.ipynb` construct all combinatorial allocations of 5 terms between production/removal of \(X\) and \(Y\) (total 8568 circuits), then successively filter:
     1. Remove “one‑variable” circuits (all 5 terms in one population) → 8316.
     2. Require at least one removal term in each population → 6990.
     3. Require at least one production term in each population → 6210.

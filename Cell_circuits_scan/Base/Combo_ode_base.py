@@ -13,7 +13,7 @@ without explicit carrying capacities).
 import numpy as np
 import sympy as sp
 from scipy.integrate import odeint
-from Base.utils import cartes_to_polar
+from utils import cartes_to_polar
 import matplotlib.pyplot as plt
 import pandas as pd
 class Combo_ODE ():
