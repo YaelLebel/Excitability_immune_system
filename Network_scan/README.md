@@ -64,6 +64,6 @@ Use the same reproducibility checklist—run Notebook 01 to refresh processed cy
 ## Reproducibility Checklist
 1. **Notebook 01 (§7.1)** – Execute all cells to regenerate `filtered_cell_network*.csv`. Confirm that the action whitelist {Activate, Survive, Secrete, Inhibit, Kill} and mediator filtering (e.g., removal of ubiquitous cytokines such as IFN-γ, TGF-β) match the manuscript description.
 2. **Notebook 02 (§7.2–§7.3)** – Load `data_processed/filtered_cell_network.csv`, rebuild the weighted graph via `create_flattened_graph_from_data_weights`, and verify that `find_excitable_motif` returns 21 motifs along with mediator annotations.
-3. **Notebook 02 (§7.4)** – Run the `rewire_graph_unique_edges` randomization loop for 1,000 iterations, recompute motif counts for each randomized graph, and confirm the enrichment statistic (observed 21 motifs; p ≈ 0.04 versus the null distribution).
+3. **Notebook 02 (§7.4)** – Run the `rewire_graph_unique_edges` randomization loop for 1,000 iterations, recompute motif counts for each randomized graph.
 
 Maintaining this structure keeps the computation synchronized with Methods §7 and ensures every file’s role in the pipeline is explicit.
