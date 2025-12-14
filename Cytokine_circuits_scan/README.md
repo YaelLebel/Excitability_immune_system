@@ -35,7 +35,7 @@ Run the notebooks in the `notebooks/` directory in order:
     - Computes metrics (Response Strength/Speed).
     - Performs Pareto analysis.
     - Output: `data/intermediate/df_pareto.csv`
-    - *Note: Requires implementing real parameter logic in `cytokine_circuits/core/parameters.py`*
+    
 
 4.  **`04_feedback_analysis.ipynb`**
     - Generates **Positive (+) and Negative (-)** feedback variants for Type A and B circuits.
