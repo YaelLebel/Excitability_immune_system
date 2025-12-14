@@ -18,3 +18,20 @@ The following table outlines how each directory corresponds to the specific sect
 | **Section 8** | Circuit to target and sensitivity analysis | `Cell_circuits_scan/` |
 
 Each directory contains the relevant scripts, notebooks, and data required to reproduce the analysis described in its corresponding section.
+
+## Dependencies
+
+Some parts of this codebase rely on the `DynamicModel_Package`. For convenience, a copy of this package is included in the `libs/` directory.
+
+To use the code that depends on this package, ensure it is in your Python path. You can do this by setting the `PYTHONPATH` environment variable:
+
+```bash
+export PYTHONPATH=$PYTHONPATH:$(pwd)/libs
+```
+
+Or by installing it in editable mode:
+
+```bash
+pip install -e libs/DynamicModel_Package
+```
+
