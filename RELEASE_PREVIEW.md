@@ -16,7 +16,8 @@ The repository layout has been optimized for navigation, with top-level director
 *   `Network_scan/`: Motif search in cytokine & cell networks (Sections 2 & 7)
 *   `COVID_Cytokine_Dynamics/`: Clinical data analysis & modeling (Sections 3 & 4)
 *   `Comparison_to_classical_models/`: Benchmarking (Section 5)
-*   `Cell_circuits_scan/`: Cell-cell circuit analysis (Sections 6 & 8)
+*   `Cell_circuits_scan/`: Cell-cell circuit analysis (Section 6)
+*   `Circuit_to_target_analysis/`: Circuit-to-target and sensitivity analysis (Section 8)
 
 ## 🛠 Getting Started
 Please refer to the `README.md` for a detailed mapping of method sections to code directories and instructions on reproducing specific results.

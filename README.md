@@ -15,7 +15,7 @@ The following table outlines how each directory corresponds to the specific sect
 | **Section 5** | Comparison of immune response length to viral infection duration | `Comparison_to_classical_models/` |
 | **Section 6** | Systematic Scan of Cell-Cell Circuits | `Cell_circuits_scan/` |
 | **Section 7** | Network Search for Excitable Cell-Cell Motifs | `Network_scan/Cell_network/` |
-| **Section 8** | Circuit to target and sensitivity analysis | `Cell_circuits_scan/` |
+| **Section 8** | Circuit to target and sensitivity analysis | `Circuit_to_target_analysis/` |
 
 Each directory contains the relevant scripts, notebooks, and data required to reproduce the analysis described in its corresponding section.
 
